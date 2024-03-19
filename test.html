@@ -1,0 +1,2343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="firstPart">
+      <header class="header">
+        <div class="hiddendivs">
+          <p style="margin-top: 2vw; font-size: small">SKIFF MAIL</p>
+        </div>
+        <nav>
+          <ul class="navUl">
+            <li>
+              <div
+                class="orangelogo"
+                style="
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                "
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80%"
+                  height="80%"
+                  fill="none"
+                >
+                  <path
+                    fill="#000"
+                    d="M15.774 2.013a7.283 7.283 0 0 1 3.117.638 11.77 11.77 0 0 0-2.336-1.15 12.258 12.258 0 0 0-6.29-.587A12.31 12.31 0 0 0 4.51 3.54c-.105.078-.382.334-.491.426-.11.092-.36.34-.455.458-.095.12-.309.326-.454.459-.145.133-.323.38-.418.5l-.327.43c-.087.12-.286.417-.368.537-.082.119-.137.224-.173.28-.036.054-.118.192-.14.228-.023.037-.237.431-.292.523-.054.092-.218.458-.281.587l-.214.5c0 .054-.163.458-.19.508-.028.05-.096.293-.132.413-.078.229-.146.495-.21.728-.036.142-.108.495-.14.637v.11c-.53 2.918-.01 5.93 1.467 8.494.15.248.355.587.527.82.064.097.178.262.25.354l.264.348.418.495.454.458c.087.078.223.225.314.298l.163.142.041.032.041.032.082.07c.104.086.236.178.345.256l.087.06.09.06c.096.063.264.169.369.224.104.055.136.082.186.105l.286.142c.091.046.21.096.295.133.214.087.455.165.655.238.118.028.245.07.363.101l.314.07.318.054c.365.055.734.082 1.104.083a7.262 7.262 0 0 0 2.622-.573 7.16 7.16 0 0 0 2.335-1.624 7.233 7.233 0 0 0 1.527-2.41l.077-.202c0-.069.078-.247.1-.311.041-.165.1-.362.132-.527 0-.06.036-.152.045-.211.053-.317.088-.637.105-.958v-.376c-.236 0-.454-.032-.7-.06a7.28 7.28 0 0 1-4.719-2.598A7.404 7.404 0 0 1 8.508 8.93a7.388 7.388 0 0 1 2.279-4.912 7.263 7.263 0 0 1 4.996-2.004h-.01ZM5.518 20.678a8.963 8.963 0 0 1-.795-.76 11.308 11.308 0 0 1-2.39-3.95 11.381 11.381 0 0 1 .638-9.034 11.269 11.269 0 0 1 2.92-3.568c.09-.078.236-.18.327-.248a11.06 11.06 0 0 1 1.136-.747 10.875 10.875 0 0 1 4.09-1.325l.53-.046h1.068l-.532.042-.527.068-.522.088A11.054 11.054 0 0 0 7.06 3.062a11.167 11.167 0 0 0-3.219 3.555 11.294 11.294 0 0 0-.84 9.367 11.07 11.07 0 0 0 1.936 3.383l.081.101.041.05.046.046c.225.262.467.51.722.743a6.31 6.31 0 0 0 6.816 1 6.315 6.315 0 0 1-7.125-.629Zm1.532-2.1-.082-.086-.046-.041-.304-.312a10.02 10.02 0 0 1-2.086-3.381 10.086 10.086 0 0 1 .343-7.798 9.999 9.999 0 0 1 2.374-3.182 9.823 9.823 0 0 1 1.604-1.155c.2-.11.455-.243.655-.348.077-.042.15-.064.222-.101a9.514 9.514 0 0 1 2.826-.77c.128 0 .355-.037.482-.041h.364c.364-.006.728.01 1.09.045-.562.007-1.122.058-1.676.152a9.893 9.893 0 0 0-4.391 1.904 10.008 10.008 0 0 0-3.002 3.752 9.918 9.918 0 0 0 .977 9.832c.077.096.204.28.286.376.136.17.309.376.454.536a5.482 5.482 0 0 0 3.11 1.776 5.451 5.451 0 0 0 3.534-.53c-2.032 1.445-4.949 1.041-6.734-.627Zm1.23-3.3c.386.56.844 1.065 1.364 1.5a5.001 5.001 0 0 0 4.626.917 4.82 4.82 0 0 1-4.122-.12 5.73 5.73 0 0 1-1.722-1.31 8.726 8.726 0 0 1-1.859-3.171 8.781 8.781 0 0 1 .749-7.161 8.68 8.68 0 0 1 2.473-2.71c.1-.073.255-.169.364-.238.2-.133.454-.261.65-.376.195-.114.336-.165.486-.229a8.331 8.331 0 0 1 2.894-.664h.846l.313.027c.173 0 .345.046.518.069h-.936a9.1 9.1 0 0 0-2.326.458 8.448 8.448 0 0 0-3.343 2.056 8.546 8.546 0 0 0-2.067 3.353 8.606 8.606 0 0 0 1.093 7.604v-.004Z"
+                  ></path>
+                  <path
+                    fill="#000"
+                    d="M19.89 22.695c.1-.078.382-.335.491-.426l.455-.459.454-.458c.105-.124.323-.376.418-.5l.327-.43c.087-.12.287-.418.368-.537l.173-.28c.027-.036.118-.192.141-.229.023-.036.236-.426.286-.522.05-.096.223-.459.287-.587.063-.128.15-.353.213-.5 0-.05.164-.458.186-.508.023-.05.1-.294.137-.413.077-.229.145-.495.209-.729.036-.142.104-.495.14-.637v-.105a12.53 12.53 0 0 0-1.467-8.494c-.15-.252-.354-.586-.527-.825a6.19 6.19 0 0 0-.25-.353l-.264-.343c-.09-.106-.331-.4-.422-.5-.091-.1-.3-.325-.455-.458-.081-.078-.222-.225-.309-.298l-.163-.138-.041-.037-.041-.032-.086-.068c-.1-.087-.232-.18-.341-.257l-.091-.06-.086-.06c-.1-.063-.264-.169-.368-.224-.105-.055-.137-.082-.187-.105l-.286-.142-.295-.133c-.214-.087-.455-.165-.655-.239l-.363-.096-.314-.073-.318-.055a7.458 7.458 0 0 0-1.104-.083c-.901.027-1.79.22-2.622.573A7.16 7.16 0 0 0 10.785 4.5a7.233 7.233 0 0 0-1.527 2.41l-.077.206c-.023.064-.077.243-.1.307-.045.165-.1.362-.132.527 0 .06-.036.152-.045.211a7.762 7.762 0 0 0-.114.972v.399a7.186 7.186 0 0 1 2.795.601 7.24 7.24 0 0 1 2.346 1.646 7.31 7.31 0 0 1 1.532 2.433 7.38 7.38 0 0 1 .48 2.841 7.566 7.566 0 0 1-1.012 3.47 7.487 7.487 0 0 1-2.5 2.59 7.406 7.406 0 0 1-6.94.495 12.27 12.27 0 0 0 8.638 1.731 12.323 12.323 0 0 0 5.762-2.643Zm-.999-17.152c.282.238.55.492.804.76a11.364 11.364 0 0 1 3.034 8.066 11.352 11.352 0 0 1-3.488 7.877c-.11.1-.286.275-.404.367l-.21.174-.108.091-.05.042-.273.206c-.367.27-.749.519-1.145.742l-.482.257a10.65 10.65 0 0 1-5.216 1.11 11.35 11.35 0 0 0 7.674-3.585 11.173 11.173 0 0 0 2.98-7.04 11.192 11.192 0 0 0-2.234-7.316c-.096-.138-.223-.28-.328-.408l-.081-.1-.041-.051-.041-.05a6.353 6.353 0 0 0-3.476-2.17 6.31 6.31 0 0 0-4.067.414 6.316 6.316 0 0 1 7.152.614Zm-1.817 1.833c.145.115.29.252.427.376a9.996 9.996 0 0 1 2.546 4.092c.504 1.553.622 3.208.344 4.818a10.026 10.026 0 0 1-1.94 4.417 9.908 9.908 0 0 1-3.768 2.982l-.227.096-.054.023-.06.023-.113.046c-.118.041-.336.128-.454.165a9.32 9.32 0 0 1-3.849.412c.64-.011 1.28-.079 1.909-.201a9.901 9.901 0 0 0 4.235-1.953 10.014 10.014 0 0 0 2.89-3.685 9.904 9.904 0 0 0-1.114-9.993c-.082-.114-.204-.256-.29-.366-.087-.11-.269-.303-.392-.459a5.48 5.48 0 0 0-3.09-1.685 5.452 5.452 0 0 0-3.47.549c1.921-1.376 4.68-1.1 6.474.362l-.005-.019Zm-4.862 16.415.377-.16.368-.18c.14-.068.309-.17.454-.247l.432-.27c.123-.088.295-.207.413-.299a8.518 8.518 0 0 0 3.231-5.265 8.57 8.57 0 0 0-1.163-6.08l-.223-.338-.24-.326-.255-.32a6.288 6.288 0 0 0-.854-.853 5.01 5.01 0 0 0-4.617-.917 4.923 4.923 0 0 1 4.894.555c.47.34.897.741 1.268 1.191a8.702 8.702 0 0 1 1.854 3.788 8.746 8.746 0 0 1-.14 4.222 8.69 8.69 0 0 1-2.1 3.654 8.586 8.586 0 0 1-3.563 2.22 8.112 8.112 0 0 1-3.776.253 9.162 9.162 0 0 0 3.644-.61l-.004-.018Z"
+                  ></path>
+                </svg>
+              </div>
+            </li>
+            <li class="hiddennav">
+              Poduct <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li class="hiddennav">
+              Resourse <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li class="hiddennav">
+              Download <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li style="display: flex;"><button>Sign in</button><i class="fa-solid fa-bars hideIcon" style="font-size: 20px; margin-left: 1vh;margin-right: 1vh;margin-top: 0.5vh;"></i></li>
+           
+          </ul>
+        </nav>
+        <div class="hiddendivs" style="font-style: pixel;"><img src="/Screenshot__172_-removebg-preview.png" style="width: 25vh;" alt=""></div>
+      </header>
+      <div class="secondSection">
+        <h2>
+          Private, End-to-End Encrypted
+          <img
+            alt=""
+            src="https://cdn.sanity.io/images/sdd9dua4/production/9ec6bdfc1870ae942f24644f5115cfe5bf9cfa80-260x258.svg?fit=max&auto=format"
+          />
+
+          mail
+        </h2>
+        <p>
+          Skiff Mail protects your inbox by keeping your messages end-to-end
+          encrypted. That means that no one but you has access to your data.
+        </p>
+      </div>
+      <div class="ThirdSection">
+        <div class="sidebar">
+          <div class="logoPortion">
+            <img
+              alt=""
+              src="https://cdn.sanity.io/images/sdd9dua4/production/9ec6bdfc1870ae942f24644f5115cfe5bf9cfa80-260x258.svg?fit=max&auto=format"
+            />
+            <div class="textflex" style="font-size: 15px">
+              <p>Skiff Mail</p>
+              <p style="font-size: small; color: rgb(82, 82, 82)">Nightwatch</p>
+            </div>
+          </div>
+          <div class="sidebarButtons">
+            <button>
+              <i class="fa-solid fa-arrow-up-from-bracket"></i>Compose
+            </button>
+            <button><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+            <button><i class="fa-solid fa-gear"></i>Settings</button>
+            <p>Mail</p>
+            <button><i class="fa-solid fa-inbox"></i>Inbox</button>
+            <button><i class="fa-regular fa-paper-plane"></i>Sent</button>
+            <button><i class="fa-regular fa-calendar"></i>Sent later</button>
+          </div>
+        </div>
+        <div class="sectionBody">
+          <p class="inbox">Inbox <span style="color: red">12</span></p>
+          <div style="display: flex">
+            <input type="checkbox" />
+            <p class="mostRecent">Most recent</p>
+          </div>
+
+          <hr />
+          <div class="sectionDiv">
+            <div class="imagePart">
+              <input type="checkbox" checked />
+              <svg
+                style="border-radius: 10px; margin-left: 1vw; margin-right: 1vw"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+              >
+                <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                <path
+                  fill="#34AC80"
+                  d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                ></path>
+                <path
+                  fill="#F8D689"
+                  d="M19 23h-5v1h5v-1Zm-4 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-1 1h-3v1h3v-1Zm2 0h-1v1h1v-1Zm-4 1h-1v1h1v-1Zm4 0h-3v1h3v-1Z"
+                ></path>
+                <path
+                  fill="#4BEA69"
+                  d="M17 4h-2v1h2V4Zm-4 1h-1v1h1V5Zm5 0h-2v1h2V5Z"
+                ></path>
+                <path fill="#FFC110" d="M25 5h-1v1h1V5Z"></path>
+                <path fill="#4BEA69" d="M15 6h-2v1h2V6Zm3 0h-2v1h2V6Z"></path>
+                <path fill="#FFC110" d="M24 6h-2v1h2V6Z"></path>
+                <path fill="#FDF8FF" d="M12 7H9v1h3V7Z"></path>
+                <path fill="#4BEA69" d="M18 7h-5v1h5V7Z"></path>
+                <path fill="#FFC110" d="M23 7h-3v1h3V7Z"></path>
+                <path fill="#4BEA69" d="M9 8H6v1h3V8Z"></path>
+                <path fill="#FDF8FF" d="M12 8H9v1h3V8Z"></path>
+                <path fill="#4BEA69" d="M19 8h-7v1h7V8Z"></path>
+                <path fill="#FFC110" d="M22 8h-3v1h3V8Z"></path>
+                <path fill="#FDF8FF" d="M23 8h-1v1h1V8Z"></path>
+                <path fill="#4BEA69" d="M5 9H4v1h1V9Zm4 0H6v1h3V9Z"></path>
+                <path fill="#FDF8FF" d="M16 9H9v1h7V9Z"></path>
+                <path fill="#4BEA69" d="M17 9h-1v1h1V9Z"></path>
+                <path fill="#FFC110" d="M21 9h-4v1h4V9Z"></path>
+                <path fill="#FDF8FF" d="M23 9h-2v1h2V9Z"></path>
+                <path fill="#4BEA69" d="M8 10H5v1h3v-1Z"></path>
+                <path fill="#FF638D" d="M9 10H8v1h1v-1Z"></path>
+                <path fill="#FDF8FF" d="M16 10H9v1h7v-1Z"></path>
+                <path fill="#FFC110" d="M20 10h-4v1h4v-1Z"></path>
+                <path fill="#FDF8FF" d="M23 10h-3v1h3v-1Z"></path>
+                <path fill="#4BEA69" d="M7 11H6v1h1v-1Z"></path>
+                <path fill="#FF638D" d="M9 11H7v1h2v-1Z"></path>
+                <path fill="#FDF8FF" d="M16 11H9v1h7v-1Z"></path>
+                <path fill="#FFC110" d="M19 11h-3v1h3v-1Z"></path>
+                <path fill="#FDF8FF" d="M23 11h-4v1h4v-1Z"></path>
+                <path fill="#FF638D" d="M9 12H6v1h3v-1Z"></path>
+                <path fill="#FDF8FF" d="M16 12H9v1h7v-1Z"></path>
+                <path fill="#FFC110" d="M18 12h-2v1h2v-1Z"></path>
+                <path fill="#FDF8FF" d="M23 12h-5v1h5v-1Z"></path>
+                <path fill="#FF638D" d="M9 13H5v1h4v-1Z"></path>
+                <path fill="#FDF8FF" d="M16 13H9v1h7v-1Z"></path>
+                <path fill="#FFC110" d="M17 13h-1v1h1v-1Z"></path>
+                <path fill="#FDF8FF" d="M23 13h-6v1h6v-1Z"></path>
+                <path fill="#FF638D" d="M9 14H6v1h3v-1Z"></path>
+                <path fill="#FDF8FF" d="M23 14H9v1h14v-1Z"></path>
+                <path fill="#FF638D" d="M9 15H6v1h3v-1Z"></path>
+                <path fill="#FDF8FF" d="M23 15H9v1h14v-1Z"></path>
+                <path fill="#FF638D" d="M9 16H6v1h3v-1Z"></path>
+                <path fill="#FEB9D5" d="M27 16H9v1h18v-1Z"></path>
+                <path fill="#FF638D" d="M7 17H5v1h2v-1Z"></path>
+                <path fill="#667AF9" d="M9 17H7v1h2v-1Z"></path>
+                <path fill="#FEB9D5" d="M23 17H9v1h14v-1Z"></path>
+                <path fill="#FF638D" d="M24 17h-1v1h1v-1Z"></path>
+                <path fill="#FEB9D5" d="M25 17h-1v1h1v-1Z"></path>
+                <path fill="#FF638D" d="M26 17h-1v1h1v-1Z"></path>
+                <path fill="#FEB9D5" d="M27 17h-1v1h1v-1Z"></path>
+                <path fill="#667AF9" d="M9 18H5v1h4v-1Z"></path>
+                <path fill="#FEB9D5" d="M12 18H9v1h3v-1Z"></path>
+                <path fill="#FF638D" d="M13 18h-1v1h1v-1Z"></path>
+                <path fill="#FDF8FF" d="M14 18h-1v1h1v-1Z"></path>
+                <path fill="#000" d="M15 18h-1v1h1v-1Z"></path>
+                <path fill="#FDF8FF" d="M16 18h-1v1h1v-1Z"></path>
+                <path fill="#000" d="M17 18h-1v1h1v-1Z"></path>
+                <path fill="#FDF8FF" d="M18 18h-1v1h1v-1Z"></path>
+                <path fill="#000" d="M19 18h-1v1h1v-1Z"></path>
+                <path fill="#FDF8FF" d="M20 18h-1v1h1v-1Z"></path>
+                <path fill="#FF638D" d="M21 18h-1v1h1v-1Z"></path>
+                <path fill="#FEB9D5" d="M27 18h-6v1h6v-1Z"></path>
+                <path fill="#667AF9" d="M9 19H6v1h3v-1Z"></path>
+                <path fill="#FEB9D5" d="M27 19H9v1h18v-1Z"></path>
+                <path fill="#667AF9" d="M9 20H6v1h3v-1Z"></path>
+                <path fill="#FEB9D5" d="M27 20H9v1h18v-1Z"></path>
+                <path fill="#667AF9" d="M9 21H7v1h2v-1Zm0 1H8v1h1v-1Z"></path>
+                <path fill="#FFC110" d="M16 11h-6v1h6v-1Z"></path>
+                <path fill="#F98F30" d="M23 11h-6v1h6v-1Z"></path>
+                <path fill="#FFC110" d="M11 12h-1v1h1v-1Z"></path>
+                <path fill="#fff" d="M13 12h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 12h-2v1h2v-1Z"></path>
+                <path fill="#FFC110" d="M16 12h-1v1h1v-1Z"></path>
+                <path fill="#F98F30" d="M18 12h-1v1h1v-1Z"></path>
+                <path fill="#fff" d="M20 12h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 12h-2v1h2v-1Z"></path>
+                <path
+                  fill="#F98F30"
+                  d="M23 12h-1v1h1v-1Zm-13 1H7v1h3v-1Z"
+                ></path>
+                <path fill="#FFC110" d="M11 13h-1v1h1v-1Z"></path>
+                <path fill="#fff" d="M13 13h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 13h-2v1h2v-1Z"></path>
+                <path fill="#FFC110" d="M16 13h-1v1h1v-1Z"></path>
+                <path fill="#F98F30" d="M18 13h-2v1h2v-1Z"></path>
+                <path fill="#fff" d="M20 13h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 13h-2v1h2v-1Z"></path>
+                <path
+                  fill="#F98F30"
+                  d="M23 13h-1v1h1v-1ZM8 14H7v1h1v-1Z"
+                ></path>
+                <path fill="#FFC110" d="M11 14h-1v1h1v-1Z"></path>
+                <path fill="#fff" d="M13 14h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 14h-2v1h2v-1Z"></path>
+                <path fill="#FFC110" d="M16 14h-1v1h1v-1Z"></path>
+                <path fill="#F98F30" d="M18 14h-1v1h1v-1Z"></path>
+                <path fill="#fff" d="M20 14h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 14h-2v1h2v-1Z"></path>
+                <path
+                  fill="#F98F30"
+                  d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Z"
+                ></path>
+                <path fill="#FFC110" d="M11 15h-1v1h1v-1Z"></path>
+                <path fill="#fff" d="M13 15h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 15h-2v1h2v-1Z"></path>
+                <path fill="#FFC110" d="M16 15h-1v1h1v-1Z"></path>
+                <path fill="#F98F30" d="M18 15h-1v1h1v-1Z"></path>
+                <path fill="#fff" d="M20 15h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 15h-2v1h2v-1Z"></path>
+                <path fill="#F98F30" d="M23 15h-1v1h1v-1Z"></path>
+                <path fill="#FFC110" d="M16 16h-6v1h6v-1Z"></path>
+                <path fill="#F98F30" d="M23 16h-6v1h6v-1Z"></path>
+              </svg>
+              <p>Henirick Lock</p>
+            </div>
+            <div class="textpart">
+              <p>
+                Update the engineering status -<span
+                  >Hey all after touching base with laura:</span
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="sectionDiv">
+            <div class="imagePart">
+              <input type="checkbox" checked />
+              <svg
+                style="border-radius: 10px; margin-left: 1vw; margin-right: 1vw"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+              >
+                <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                <path
+                  fill="#4B4949"
+                  d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M14 23h-1v1h1v-1Zm4 0h-2v1h2v-1Zm2 0h-1v1h1v-1Zm-6 1h-1v1h1v-1Zm4 0h-2v1h2v-1Zm2 0h-1v1h1v-1Zm-5 1h-2v1h2v-1Zm3 0h-2v1h2v-1Zm3 0h-2v1h2v-1Z"
+                ></path>
+                <path
+                  fill="#000"
+                  d="M11 5H7v1h4V5Zm13 0h-4v1h4V5ZM12 6H6v1h6V6Zm13 0h-6v1h6V6ZM12 7H6v1h6V7Z"
+                ></path>
+                <path fill="#fff" d="M21 7h-9v1h9V7Z"></path>
+                <path fill="#000" d="M25 7h-4v1h4V7ZM11 8H6v1h5V8Z"></path>
+                <path fill="#fff" d="M22 8H11v1h11V8Z"></path>
+                <path fill="#000" d="M25 8h-3v1h3V8ZM10 9H6v1h4V9Z"></path>
+                <path fill="#fff" d="M23 9H10v1h13V9Z"></path>
+                <path fill="#000" d="M25 9h-2v1h2V9ZM9 10H7v1h2v-1Z"></path>
+                <path fill="#fff" d="M23 10H9v1h14v-1Z"></path>
+                <path fill="#000" d="M24 10h-1v1h1v-1Z"></path>
+                <path
+                  fill="#fff"
+                  d="M24 11H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm-6 1H8v1h10v-1Z"
+                ></path>
+                <path fill="#000" d="M22 17h-4v1h4v-1Z"></path>
+                <path fill="#fff" d="M24 17h-2v1h2v-1Zm-6 1H8v1h10v-1Z"></path>
+                <path fill="#000" d="M22 18h-4v1h4v-1Z"></path>
+                <path fill="#fff" d="M24 18h-2v1h2v-1Zm-9 1H8v1h7v-1Z"></path>
+                <path fill="#000" d="M21 19h-6v1h6v-1Z"></path>
+                <path fill="#fff" d="M24 19h-3v1h3v-1Zm0 1H8v1h16v-1Z"></path>
+                <path
+                  fill="#000"
+                  d="M16 11h-6v1h6v-1Zm7 0h-6v1h6v-1Zm-10 1h-3v1h3v-1Z"
+                ></path>
+                <path fill="#FF0E0E" d="M14 12h-1v1h1v-1Z"></path>
+                <path fill="#000" d="M16 12h-2v1h2v-1Zm4 0h-3v1h3v-1Z"></path>
+                <path fill="#FF0E0E" d="M21 12h-1v1h1v-1Z"></path>
+                <path
+                  fill="#000"
+                  d="M23 12h-2v1h2v-1Zm0 1H7v1h16v-1ZM8 14H7v1h1v-1Zm3 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#0ADC4D" d="M12 14h-1v1h1v-1Z"></path>
+                <path fill="#000" d="M14 14h-2v1h2v-1Z"></path>
+                <path fill="#1929F4" d="M15 14h-1v1h1v-1Z"></path>
+                <path fill="#000" d="M16 14h-1v1h1v-1Zm2 0h-1v1h1v-1Z"></path>
+                <path fill="#0ADC4D" d="M19 14h-1v1h1v-1Z"></path>
+                <path fill="#000" d="M21 14h-2v1h2v-1Z"></path>
+                <path fill="#1929F4" d="M22 14h-1v1h1v-1Z"></path>
+                <path
+                  fill="#000"
+                  d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Zm8 0h-6v1h6v-1Zm7 0h-6v1h6v-1Zm-7 1h-6v1h6v-1Zm7 0h-6v1h6v-1Z"
+                ></path>
+              </svg>
+              <p>Angelina</p>
+            </div>
+            <div class="textpart">
+              <p>
+                Product Strategy sync -<span
+                  >Hey Jo, will you be joining us this call?</span
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="sectionDiv">
+            <div class="imagePart">
+              <input type="checkbox" />
+              <svg
+                style="border-radius: 10px; margin-left: 1vw; margin-right: 1vw"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+              >
+                <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                <path
+                  fill="#1F1D29"
+                  d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                ></path>
+                <path
+                  fill="#FFC110"
+                  d="M13 21h-1v1h1v-1Zm7 0h-1v1h1v-1Zm-6 1h-1v1h1v-1Zm5 0h-1v1h1v-1Zm-4 1h-1v1h1v-1Zm3 0h-1v1h1v-1Zm-1 1h-2v1h2v-1Z"
+                ></path>
+                <path fill="#FFF671" d="M19 25h-6v1h6v-1Z"></path>
+                <path fill="#FFC110" d="M17 26h-4v1h4v-1Z"></path>
+                <path fill="#FFF671" d="M19 26h-2v1h2v-1Z"></path>
+                <path fill="#FFC110" d="M17 27h-4v1h4v-1Z"></path>
+                <path fill="#FFF671" d="M19 27h-2v1h2v-1Z"></path>
+                <path
+                  fill="#1F1D29"
+                  d="M9 3H7v1h2V3Zm15 0h-2v1h2V3ZM11 4H7v1h4V4Zm13 0h-4v1h4V4ZM8 5H7v1h1V5Z"
+                ></path>
+                <path fill="#CAEFF9" d="M9 5H8v1h1V5Z"></path>
+                <path fill="#1F1D29" d="M13 5H9v1h4V5Zm9 0h-4v1h4V5Z"></path>
+                <path fill="#CAEFF9" d="M23 5h-1v1h1V5Z"></path>
+                <path fill="#1F1D29" d="M24 5h-1v1h1V5ZM8 6H7v1h1V6Z"></path>
+                <path fill="#CAEFF9" d="M11 6H8v1h3V6Z"></path>
+                <path fill="#1F1D29" d="M13 6h-2v1h2V6Zm7 0h-2v1h2V6Z"></path>
+                <path fill="#CAEFF9" d="M23 6h-3v1h3V6Z"></path>
+                <path fill="#1F1D29" d="M24 6h-1v1h1V6ZM8 7H7v1h1V7Z"></path>
+                <path fill="#CAEFF9" d="M12 7H8v1h4V7Z"></path>
+                <path fill="#1F1D29" d="M19 7h-7v1h7V7Z"></path>
+                <path fill="#CAEFF9" d="M23 7h-4v1h4V7Z"></path>
+                <path fill="#1F1D29" d="M24 7h-1v1h1V7ZM8 8H7v1h1V8Z"></path>
+                <path fill="#CAEFF9" d="M11 8H8v1h3V8Z"></path>
+                <path fill="#1F1D29" d="M20 8h-9v1h9V8Z"></path>
+                <path fill="#CAEFF9" d="M23 8h-3v1h3V8Z"></path>
+                <path fill="#1F1D29" d="M24 8h-1v1h1V8ZM8 9H7v1h1V9Z"></path>
+                <path fill="#CAEFF9" d="M9 9H8v1h1V9Z"></path>
+                <path fill="#1F1D29" d="M22 9H9v1h13V9Z"></path>
+                <path fill="#CAEFF9" d="M23 9h-1v1h1V9Z"></path>
+                <path
+                  fill="#1F1D29"
+                  d="M24 9h-1v1h1V9Zm0 1H7v1h17v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Z"
+                ></path>
+                <path fill="#7CC4F2" d="M11 17H6v1h5v-1Z"></path>
+                <path fill="#CAEFF9" d="M16 17h-5v1h5v-1Z"></path>
+                <path fill="#FA6FE2" d="M18 17h-2v1h2v-1Z"></path>
+                <path fill="#CAEFF9" d="M22 17h-4v1h4v-1Z"></path>
+                <path fill="#7CC4F2" d="M26 17h-4v1h4v-1Z"></path>
+                <path fill="#CAEFF9" d="M16 18H8v1h8v-1Z"></path>
+                <path fill="#5A6B7B" d="M17 18h-1v1h1v-1Z"></path>
+                <path fill="#CAEFF9" d="M24 18h-7v1h7v-1Z"></path>
+                <path fill="#7CC4F2" d="M11 19H6v1h5v-1Z"></path>
+                <path fill="#CAEFF9" d="M14 19h-3v1h3v-1Z"></path>
+                <path fill="#5A6B7B" d="M18 19h-4v1h4v-1Z"></path>
+                <path fill="#CAEFF9" d="M22 19h-4v1h4v-1Z"></path>
+                <path fill="#7CC4F2" d="M26 19h-4v1h4v-1Z"></path>
+                <path fill="#CAEFF9" d="M24 20H8v1h16v-1Z"></path>
+                <path
+                  fill="#D19A54"
+                  d="M16 11h-6v1h6v-1Zm7 0h-6v1h6v-1Zm-12 1h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M13 12h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 12h-2v1h2v-1Z"></path>
+                <path
+                  fill="#D19A54"
+                  d="M16 12h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M20 12h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 12h-2v1h2v-1Z"></path>
+                <path
+                  fill="#D19A54"
+                  d="M23 12h-1v1h1v-1Zm-12 1H7v1h4v-1Z"
+                ></path>
+                <path fill="#fff" d="M13 13h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 13h-2v1h2v-1Z"></path>
+                <path fill="#D19A54" d="M18 13h-3v1h3v-1Z"></path>
+                <path fill="#fff" d="M20 13h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 13h-2v1h2v-1Z"></path>
+                <path
+                  fill="#D19A54"
+                  d="M23 13h-1v1h1v-1ZM8 14H7v1h1v-1Zm3 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M13 14h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 14h-2v1h2v-1Z"></path>
+                <path
+                  fill="#D19A54"
+                  d="M16 14h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M20 14h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 14h-2v1h2v-1Z"></path>
+                <path
+                  fill="#D19A54"
+                  d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Zm3 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M13 15h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 15h-2v1h2v-1Z"></path>
+                <path
+                  fill="#D19A54"
+                  d="M16 15h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M20 15h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 15h-2v1h2v-1Z"></path>
+                <path
+                  fill="#D19A54"
+                  d="M23 15h-1v1h1v-1Zm-7 1h-6v1h6v-1Zm7 0h-6v1h6v-1Z"
+                ></path>
+              </svg>
+              <p style="color: black; font-weight: 600">Jason,Sunny,Joseph</p>
+            </div>
+            <div class="textpart">
+              <p style="color: black; font-weight: 500">
+                <i class="fa-solid fa-circle" style="font-size: 8px;color: rgb(226, 53, 0);"></i> Rewind features Eng Sync -<span
+                  >I'm not entirely sure I agree with that approch. Users won't
+                  understand!</span
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="sectionDiv">
+            <div class="imagePart">
+              <input type="checkbox" />
+              <svg
+                style="border-radius: 10px; margin-left: 1vw; margin-right: 1vw"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="none"
+                class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+              >
+                <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                <path
+                  fill="#63A0F9"
+                  d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                ></path>
+                <path
+                  fill="#000"
+                  d="M14 24h-2v1h2v-1Zm3 0h-1v1h1v-1Zm3 0h-1v1h1v-1Zm-7 1h-1v1h1v-1Zm3 0h-2v1h2v-1Zm3 0h-2v1h2v-1Zm2 0h-1v1h1v-1Zm-8 1h-1v1h1v-1Zm6 0h-5v1h5v-1Zm2 0h-1v1h1v-1Zm-7 1h-2v1h2v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#26B1F3" d="M14 3h-1v1h1V3Z"></path>
+                <path fill="#FA6FE2" d="M19 3h-5v1h5V3Zm-6 1h-2v1h2V4Z"></path>
+                <path fill="#26B1F3" d="M14 4h-1v1h1V4Z"></path>
+                <path fill="#FA6FE2" d="M18 4h-4v1h4V4Z"></path>
+                <path fill="#FEE3F3" d="M19 4h-1v1h1V4Z"></path>
+                <path fill="#FA6FE2" d="M21 4h-2v1h2V4Zm-2 1H9v1h10V5Z"></path>
+                <path fill="#FEE3F3" d="M20 5h-1v1h1V5Z"></path>
+                <path fill="#FA6FE2" d="M23 5h-3v1h3V5Zm-7 1H8v1h8V6Z"></path>
+                <path fill="#FFE939" d="M17 6h-1v1h1V6Z"></path>
+                <path fill="#FA6FE2" d="M22 6h-5v1h5V6Z"></path>
+                <path fill="#E9265C" d="M24 6h-2v1h2V6Z"></path>
+                <path fill="#FA6FE2" d="M10 7H8v1h2V7Z"></path>
+                <path fill="#FEE3F3" d="M12 7h-2v1h2V7Z"></path>
+                <path fill="#FA6FE2" d="M13 7h-1v1h1V7Z"></path>
+                <path fill="#E9265C" d="M14 7h-1v1h1V7Z"></path>
+                <path fill="#FA6FE2" d="M17 7h-3v1h3V7Z"></path>
+                <path fill="#FFE939" d="M18 7h-1v1h1V7Z"></path>
+                <path fill="#FA6FE2" d="M24 7h-6v1h6V7ZM14 8H7v1h7V8Z"></path>
+                <path fill="#E9265C" d="M15 8h-1v1h1V8Z"></path>
+                <path fill="#FA6FE2" d="M16 8h-1v1h1V8Z"></path>
+                <path fill="#F38B7C" d="M17 8h-1v1h1V8Z"></path>
+                <path fill="#FA6FE2" d="M22 8h-5v1h5V8Z"></path>
+                <path fill="#26B1F3" d="M23 8h-1v1h1V8Z"></path>
+                <path fill="#FA6FE2" d="M25 8h-2v1h2V8ZM14 9H7v1h7V9Z"></path>
+                <path fill="#F38B7C" d="M19 9h-5v1h5V9Z"></path>
+                <path fill="#FA6FE2" d="M21 9h-2v1h2V9Z"></path>
+                <path fill="#26B1F3" d="M22 9h-1v1h1V9Z"></path>
+                <path fill="#FA6FE2" d="M25 9h-3v1h3V9Zm-15 1H6v1h4v-1Z"></path>
+                <path fill="#FFE939" d="M11 10h-1v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M13 10h-2v1h2v-1Z"></path>
+                <path
+                  fill="#F38B7C"
+                  d="M14 10h-1v1h1v-1Zm5 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#FA6FE2" d="M25 10h-6v1h6v-1Z"></path>
+                <path fill="#4BEA69" d="M26 10h-1v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M7 11H6v1h1v-1Z"></path>
+                <path fill="#4BEA69" d="M9 11H7v1h2v-1Z"></path>
+                <path fill="#FA6FE2" d="M10 11H9v1h1v-1Z"></path>
+                <path fill="#FFE939" d="M11 11h-1v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M12 11h-1v1h1v-1Z"></path>
+                <path
+                  fill="#F38B7C"
+                  d="M13 11h-1v1h1v-1Zm7 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#FFE939" d="M22 11h-2v1h2v-1Z"></path>
+                <path fill="#FA6FE2" d="M25 11h-3v1h3v-1Z"></path>
+                <path fill="#4BEA69" d="M26 11h-1v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M12 12H6v1h6v-1Z"></path>
+                <path
+                  fill="#F38B7C"
+                  d="M13 12h-1v1h1v-1Zm7 0h-1v1h1v-1Z"
+                ></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M26 12h-6v1h6v-1Zm-14 1H6v1h6v-1Z"
+                ></path>
+                <path
+                  fill="#F38B7C"
+                  d="M13 13h-1v1h1v-1Zm7 0h-1v1h1v-1Z"
+                ></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M26 13h-6v1h6v-1ZM8 14H6v1h2v-1Z"
+                ></path>
+                <path fill="#26B1F3" d="M9 14H8v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M12 14H9v1h3v-1Z"></path>
+                <path
+                  fill="#F38B7C"
+                  d="M13 14h-1v1h1v-1Zm7 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#FA6FE2" d="M23 14h-3v1h3v-1Z"></path>
+                <path fill="#FEE3F3" d="M25 14h-2v1h2v-1Z"></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M26 14h-1v1h1v-1ZM8 15H6v1h2v-1Z"
+                ></path>
+                <path fill="#26B1F3" d="M9 15H8v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M12 15H9v1h3v-1Z"></path>
+                <path
+                  fill="#F38B7C"
+                  d="M14 15h-2v1h2v-1Zm5 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#FA6FE2" d="M21 15h-2v1h2v-1Z"></path>
+                <path fill="#26B1F3" d="M22 15h-1v1h1v-1Z"></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M26 15h-4v1h4v-1Zm-12 1H7v1h7v-1Z"
+                ></path>
+                <path fill="#F38B7C" d="M19 16h-5v1h5v-1Z"></path>
+                <path fill="#FA6FE2" d="M22 16h-3v1h3v-1Z"></path>
+                <path fill="#26B1F3" d="M23 16h-1v1h1v-1Z"></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M25 16h-2v1h2v-1Zm-14 1H7v1h4v-1Z"
+                ></path>
+                <path fill="#FEE3F3" d="M12 17h-1v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M18 17h-6v1h6v-1Z"></path>
+                <path fill="#E9265C" d="M20 17h-2v1h2v-1Z"></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M25 17h-5v1h5v-1Zm-15 1H8v1h2v-1Z"
+                ></path>
+                <path fill="#FEE3F3" d="M11 18h-1v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M15 18h-4v1h4v-1Z"></path>
+                <path fill="#26B1F3" d="M16 18h-1v1h1v-1Z"></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M24 18h-8v1h8v-1Zm-9 1H8v1h7v-1Z"
+                ></path>
+                <path fill="#26B1F3" d="M16 19h-1v1h1v-1Z"></path>
+                <path fill="#1F1D29" d="M20 19h-4v1h4v-1Z"></path>
+                <path fill="#FFE939" d="M21 19h-1v1h1v-1Z"></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M24 19h-3v1h3v-1Zm-13 1H9v1h2v-1Z"
+                ></path>
+                <path fill="#E9265C" d="M12 20h-1v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M21 20h-9v1h9v-1Z"></path>
+                <path fill="#FFE939" d="M22 20h-1v1h1v-1Z"></path>
+                <path fill="#FA6FE2" d="M23 20h-1v1h1v-1Z"></path>
+                <path fill="#E9265C" d="M12 21h-1v1h1v-1Z"></path>
+                <path
+                  fill="#FA6FE2"
+                  d="M21 21h-9v1h9v-1Zm-7 1h-1v1h1v-1Z"
+                ></path>
+                <path fill="#4BEA69" d="M16 22h-2v1h2v-1Z"></path>
+                <path fill="#FA6FE2" d="M19 22h-3v1h3v-1Z"></path>
+                <path
+                  fill="#FF638D"
+                  d="M16 11h-6v1h6v-1Zm7 0h-6v1h6v-1Zm-12 1h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M13 12h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 12h-2v1h2v-1Z"></path>
+                <path
+                  fill="#FF638D"
+                  d="M16 12h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M20 12h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 12h-2v1h2v-1Z"></path>
+                <path
+                  fill="#FF638D"
+                  d="M23 12h-1v1h1v-1Zm-12 1H7v1h4v-1Z"
+                ></path>
+                <path fill="#fff" d="M13 13h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 13h-2v1h2v-1Z"></path>
+                <path fill="#FF638D" d="M18 13h-3v1h3v-1Z"></path>
+                <path fill="#fff" d="M20 13h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 13h-2v1h2v-1Z"></path>
+                <path
+                  fill="#FF638D"
+                  d="M23 13h-1v1h1v-1Zm-12 1H7v1h4v-1Z"
+                ></path>
+                <path fill="#fff" d="M13 14h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 14h-2v1h2v-1Z"></path>
+                <path fill="#FF638D" d="M18 14h-3v1h3v-1Z"></path>
+                <path fill="#fff" d="M20 14h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 14h-2v1h2v-1Z"></path>
+                <path
+                  fill="#FF638D"
+                  d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Zm3 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M13 15h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M15 15h-2v1h2v-1Z"></path>
+                <path
+                  fill="#FF638D"
+                  d="M16 15h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                ></path>
+                <path fill="#fff" d="M20 15h-2v1h2v-1Z"></path>
+                <path fill="#000" d="M22 15h-2v1h2v-1Z"></path>
+                <path
+                  fill="#FF638D"
+                  d="M23 15h-1v1h1v-1Zm-7 1h-6v1h6v-1Zm7 0h-6v1h6v-1Z"
+                ></path>
+              </svg>
+              <p>0x600f...er2</p>
+            </div>
+            <div class="textpart">
+              <p>
+                Where to find contract agreement ? -<span
+                  >Hey Jason you mentioned the other day that there was an
+                  archive</span
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="sectionDiv">
+            <div class="imagePart">
+              <input type="checkbox" /><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0MQhWozvsXRWXxhUpdzUhqjWf76K9vrTKG1L9sSAZ4NtCTlradyPIrZ7AWhbnslbdJBw&usqp=CAU"
+                alt=""
+              />
+              <p>Henirick Lock</p>
+            </div>
+            <div class="textpart">
+              <p>
+                Update the engineering status -<span
+                  >Hey all after touching base with laura:</span
+                >
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div class="sectionDiv">
+            <div class="imagePart">
+              <input type="checkbox" /><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0MQhWozvsXRWXxhUpdzUhqjWf76K9vrTKG1L9sSAZ4NtCTlradyPIrZ7AWhbnslbdJBw&usqp=CAU"
+                alt=""
+              />
+              <p>Henirick Lock</p>
+            </div>
+            <div class="textpart">
+              <p>
+                Update the engineering status -<span
+                  >Hey all after touching base with laura:</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="SecondMainPart">
+      <h1 class="mainHeading">
+        Skiff Mail is <span>end-to-end encrypted</span> email that protects your
+        inbox and gives you the power to <span>communicate freely</span> .
+      </h1>
+      <div class="cards">
+        <div class="card">
+          <h2>Add or register your custom domain</h2>
+          <p  class="description">
+            Customize your email address in one click with a privacy-first Skiff
+            Domain, or connect any domain you own. We salute you,
+            frank@festivus.com. Be the master of your domain.
+          </p>
+          <div class="insideCard">
+            <div class="insideCard1" style="margin: 1vh">
+              <i
+                class="fa-solid fa-check"
+                style="margin-right: 2vh; color: rgb(1, 156, 1)"
+              ></i>
+              <div>
+                <p
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    color: black;
+                    font-weight: 500;
+                    font-size: 16px;
+                    letter-spacing: normal;
+                  "
+                >
+                  gilmoregirl.com
+                </p>
+                <p
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    font-size: small;
+                    letter-spacing: normal;
+                  "
+                >
+                  Renews Mar 3. 2025
+                </p>
+              </div>
+            </div>
+
+            <div class="insideCard2">
+              <button class="verifiedButton">DEFAULT</button>
+              <i class="fa-solid fa-ellipsis"></i
+              ><i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="insideCard">
+            <div class="insideCard1" style="margin: 1vh">
+              <i
+                class="fa-solid fa-check"
+                style="margin-right: 2vh; color: rgb(1, 156, 1)"
+              ></i>
+              <div>
+                <p
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    color: black;
+                    font-weight: 500;
+                    font-size: 16px;
+                    letter-spacing: normal;
+                  "
+                >
+                  gilmoregirl.com
+                </p>
+                <p
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    font-size: small;
+                    letter-spacing: normal;
+                  "
+                >
+                  Renews Mar 3. 2025
+                </p>
+              </div>
+            </div>
+
+            <div class="insideCard2">
+              <i class="fa-solid fa-ellipsis"></i
+              ><i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="insideCard">
+            <div class="insideCard1" style="margin: 1vh">
+              <i
+                class="fa-solid fa-check"
+                style="margin-right: 2vh; color: rgb(1, 156, 1)"
+              ></i>
+              <div>
+                <p
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    color: black;
+                    font-weight: 500;
+                    font-size: 16px;
+                    letter-spacing: normal;
+                  "
+                >
+                  gilmoregirl.com
+                </p>
+                <p
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    font-size: small;
+                    letter-spacing: normal;
+                  "
+                >
+                  Renews Mar 3. 2025
+                </p>
+              </div>
+            </div>
+
+            <div class="insideCard2">
+              <i class="fa-solid fa-ellipsis"></i
+              ><i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="insideCard">
+            <div class="insideCard1" style="margin: 1vh">
+              <i
+                class="fa-regular fa-clock"
+                style="margin-right: 2vh; color: rgb(129, 129, 126)"
+              ></i>
+              <div>
+                <p
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    color: black;
+                    font-weight: 500;
+                    font-size: 16px;
+                    letter-spacing: normal;
+                  "
+                >
+                  gilmoregirl.com
+                </p>
+                <p
+                  style="
+                    margin: 0;
+                    padding: 0;
+                    font-size: small;
+                    letter-spacing: normal;
+                  "
+                >
+                  Renews Mar 3. 2025
+                </p>
+              </div>
+            </div>
+
+            <div class="insideCard2">
+              <button class="unverifiedButton">UNVERIFIED</button>
+              <i class="fa-solid fa-ellipsis"></i
+              ><i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="padding-right: 0">
+          <h2>End-to-end encrypted emails</h2>
+          <p style="margin-right: 1.5rem">
+            All emails between Skiff users are end-to-end encrypted, including
+            both subject and contents. External mail is encrypted with your keys
+            on receipt, keeping it private.
+          </p>
+          <div class="tableinsideCard">
+            <div class="sectionDiv">
+              <div class="imagePart">
+                <input type="checkbox" checked />
+                <svg
+                  style="
+                    border-radius: 10px;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="none"
+                  class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+                >
+                  <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                  <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                  <path
+                    fill="#34AC80"
+                    d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                  ></path>
+                  <path
+                    fill="#F8D689"
+                    d="M19 23h-5v1h5v-1Zm-4 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-1 1h-3v1h3v-1Zm2 0h-1v1h1v-1Zm-4 1h-1v1h1v-1Zm4 0h-3v1h3v-1Z"
+                  ></path>
+                  <path
+                    fill="#4BEA69"
+                    d="M17 4h-2v1h2V4Zm-4 1h-1v1h1V5Zm5 0h-2v1h2V5Z"
+                  ></path>
+                  <path fill="#FFC110" d="M25 5h-1v1h1V5Z"></path>
+                  <path fill="#4BEA69" d="M15 6h-2v1h2V6Zm3 0h-2v1h2V6Z"></path>
+                  <path fill="#FFC110" d="M24 6h-2v1h2V6Z"></path>
+                  <path fill="#FDF8FF" d="M12 7H9v1h3V7Z"></path>
+                  <path fill="#4BEA69" d="M18 7h-5v1h5V7Z"></path>
+                  <path fill="#FFC110" d="M23 7h-3v1h3V7Z"></path>
+                  <path fill="#4BEA69" d="M9 8H6v1h3V8Z"></path>
+                  <path fill="#FDF8FF" d="M12 8H9v1h3V8Z"></path>
+                  <path fill="#4BEA69" d="M19 8h-7v1h7V8Z"></path>
+                  <path fill="#FFC110" d="M22 8h-3v1h3V8Z"></path>
+                  <path fill="#FDF8FF" d="M23 8h-1v1h1V8Z"></path>
+                  <path fill="#4BEA69" d="M5 9H4v1h1V9Zm4 0H6v1h3V9Z"></path>
+                  <path fill="#FDF8FF" d="M16 9H9v1h7V9Z"></path>
+                  <path fill="#4BEA69" d="M17 9h-1v1h1V9Z"></path>
+                  <path fill="#FFC110" d="M21 9h-4v1h4V9Z"></path>
+                  <path fill="#FDF8FF" d="M23 9h-2v1h2V9Z"></path>
+                  <path fill="#4BEA69" d="M8 10H5v1h3v-1Z"></path>
+                  <path fill="#FF638D" d="M9 10H8v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 10H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M20 10h-4v1h4v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 10h-3v1h3v-1Z"></path>
+                  <path fill="#4BEA69" d="M7 11H6v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M9 11H7v1h2v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 11H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M19 11h-3v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 11h-4v1h4v-1Z"></path>
+                  <path fill="#FF638D" d="M9 12H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 12H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M18 12h-2v1h2v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 12h-5v1h5v-1Z"></path>
+                  <path fill="#FF638D" d="M9 13H5v1h4v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 13H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M17 13h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 13h-6v1h6v-1Z"></path>
+                  <path fill="#FF638D" d="M9 14H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 14H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M9 15H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 15H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M9 16H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 16H9v1h18v-1Z"></path>
+                  <path fill="#FF638D" d="M7 17H5v1h2v-1Z"></path>
+                  <path fill="#667AF9" d="M9 17H7v1h2v-1Z"></path>
+                  <path fill="#FEB9D5" d="M23 17H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M24 17h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M25 17h-1v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M26 17h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 17h-1v1h1v-1Z"></path>
+                  <path fill="#667AF9" d="M9 18H5v1h4v-1Z"></path>
+                  <path fill="#FEB9D5" d="M12 18H9v1h3v-1Z"></path>
+                  <path fill="#FF638D" d="M13 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M14 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M15 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M17 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M18 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M19 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M20 18h-1v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M21 18h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 18h-6v1h6v-1Z"></path>
+                  <path fill="#667AF9" d="M9 19H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 19H9v1h18v-1Z"></path>
+                  <path fill="#667AF9" d="M9 20H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 20H9v1h18v-1Z"></path>
+                  <path fill="#667AF9" d="M9 21H7v1h2v-1Zm0 1H8v1h1v-1Z"></path>
+                  <path fill="#FFC110" d="M16 11h-6v1h6v-1Z"></path>
+                  <path fill="#F98F30" d="M23 11h-6v1h6v-1Z"></path>
+                  <path fill="#FFC110" d="M11 12h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 12h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 12h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 12h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 12h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 12h-1v1h1v-1Zm-13 1H7v1h3v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 13h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 13h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 13h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 13h-2v1h2v-1Z"></path>
+                  <path fill="#fff" d="M20 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 13h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 13h-1v1h1v-1ZM8 14H7v1h1v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 14h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 14h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 14h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 14h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 14h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 15h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 15h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 15h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 15h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 15h-2v1h2v-1Z"></path>
+                  <path fill="#F98F30" d="M23 15h-1v1h1v-1Z"></path>
+                  <path fill="#FFC110" d="M16 16h-6v1h6v-1Z"></path>
+                  <path fill="#F98F30" d="M23 16h-6v1h6v-1Z"></path>
+                </svg>
+                <p>Henirick Lock</p>
+              </div>
+              <div class="textpart">
+                <p>  <i class="fa-solid fa-circle" style="font-size: 8px;color: rgb(226, 53, 0);"></i>
+                  Update the engineering status -<span
+                    >Hey all after touching base with laura:</span
+                  >
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="sectionDiv">
+              <div class="imagePart">
+                <input type="checkbox" checked />
+                <svg
+                  style="
+                    border-radius: 10px;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="none"
+                  class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+                >
+                  <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                  <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                  <path
+                    fill="#4B4949"
+                    d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                  ></path>
+                  <path
+                    fill="#fff"
+                    d="M14 23h-1v1h1v-1Zm4 0h-2v1h2v-1Zm2 0h-1v1h1v-1Zm-6 1h-1v1h1v-1Zm4 0h-2v1h2v-1Zm2 0h-1v1h1v-1Zm-5 1h-2v1h2v-1Zm3 0h-2v1h2v-1Zm3 0h-2v1h2v-1Z"
+                  ></path>
+                  <path
+                    fill="#000"
+                    d="M11 5H7v1h4V5Zm13 0h-4v1h4V5ZM12 6H6v1h6V6Zm13 0h-6v1h6V6ZM12 7H6v1h6V7Z"
+                  ></path>
+                  <path fill="#fff" d="M21 7h-9v1h9V7Z"></path>
+                  <path fill="#000" d="M25 7h-4v1h4V7ZM11 8H6v1h5V8Z"></path>
+                  <path fill="#fff" d="M22 8H11v1h11V8Z"></path>
+                  <path fill="#000" d="M25 8h-3v1h3V8ZM10 9H6v1h4V9Z"></path>
+                  <path fill="#fff" d="M23 9H10v1h13V9Z"></path>
+                  <path fill="#000" d="M25 9h-2v1h2V9ZM9 10H7v1h2v-1Z"></path>
+                  <path fill="#fff" d="M23 10H9v1h14v-1Z"></path>
+                  <path fill="#000" d="M24 10h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#fff"
+                    d="M24 11H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm-6 1H8v1h10v-1Z"
+                  ></path>
+                  <path fill="#000" d="M22 17h-4v1h4v-1Z"></path>
+                  <path
+                    fill="#fff"
+                    d="M24 17h-2v1h2v-1Zm-6 1H8v1h10v-1Z"
+                  ></path>
+                  <path fill="#000" d="M22 18h-4v1h4v-1Z"></path>
+                  <path fill="#fff" d="M24 18h-2v1h2v-1Zm-9 1H8v1h7v-1Z"></path>
+                  <path fill="#000" d="M21 19h-6v1h6v-1Z"></path>
+                  <path fill="#fff" d="M24 19h-3v1h3v-1Zm0 1H8v1h16v-1Z"></path>
+                  <path
+                    fill="#000"
+                    d="M16 11h-6v1h6v-1Zm7 0h-6v1h6v-1Zm-10 1h-3v1h3v-1Z"
+                  ></path>
+                  <path fill="#FF0E0E" d="M14 12h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M16 12h-2v1h2v-1Zm4 0h-3v1h3v-1Z"></path>
+                  <path fill="#FF0E0E" d="M21 12h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#000"
+                    d="M23 12h-2v1h2v-1Zm0 1H7v1h16v-1ZM8 14H7v1h1v-1Zm3 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#0ADC4D" d="M12 14h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M14 14h-2v1h2v-1Z"></path>
+                  <path fill="#1929F4" d="M15 14h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M16 14h-1v1h1v-1Zm2 0h-1v1h1v-1Z"></path>
+                  <path fill="#0ADC4D" d="M19 14h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M21 14h-2v1h2v-1Z"></path>
+                  <path fill="#1929F4" d="M22 14h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#000"
+                    d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Zm8 0h-6v1h6v-1Zm7 0h-6v1h6v-1Zm-7 1h-6v1h6v-1Zm7 0h-6v1h6v-1Z"
+                  ></path>
+                </svg>
+                <p>Angelina</p>
+              </div>
+              <div class="textpart">
+                <p>  <i class="fa-solid fa-circle" style="font-size: 8px;color: rgb(226, 53, 0);"></i>
+                  Product Strategy sync -<span
+                    >Hey Jo, will you be joining us this call?</span
+                  >
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="sectionDiv">
+              <div class="imagePart">
+                <input type="checkbox" />
+                <svg
+                  style="
+                    border-radius: 10px;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="none"
+                  class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+                >
+                  <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                  <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                  <path
+                    fill="#1F1D29"
+                    d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                  ></path>
+                  <path
+                    fill="#FFC110"
+                    d="M13 21h-1v1h1v-1Zm7 0h-1v1h1v-1Zm-6 1h-1v1h1v-1Zm5 0h-1v1h1v-1Zm-4 1h-1v1h1v-1Zm3 0h-1v1h1v-1Zm-1 1h-2v1h2v-1Z"
+                  ></path>
+                  <path fill="#FFF671" d="M19 25h-6v1h6v-1Z"></path>
+                  <path fill="#FFC110" d="M17 26h-4v1h4v-1Z"></path>
+                  <path fill="#FFF671" d="M19 26h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M17 27h-4v1h4v-1Z"></path>
+                  <path fill="#FFF671" d="M19 27h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#1F1D29"
+                    d="M9 3H7v1h2V3Zm15 0h-2v1h2V3ZM11 4H7v1h4V4Zm13 0h-4v1h4V4ZM8 5H7v1h1V5Z"
+                  ></path>
+                  <path fill="#CAEFF9" d="M9 5H8v1h1V5Z"></path>
+                  <path fill="#1F1D29" d="M13 5H9v1h4V5Zm9 0h-4v1h4V5Z"></path>
+                  <path fill="#CAEFF9" d="M23 5h-1v1h1V5Z"></path>
+                  <path fill="#1F1D29" d="M24 5h-1v1h1V5ZM8 6H7v1h1V6Z"></path>
+                  <path fill="#CAEFF9" d="M11 6H8v1h3V6Z"></path>
+                  <path fill="#1F1D29" d="M13 6h-2v1h2V6Zm7 0h-2v1h2V6Z"></path>
+                  <path fill="#CAEFF9" d="M23 6h-3v1h3V6Z"></path>
+                  <path fill="#1F1D29" d="M24 6h-1v1h1V6ZM8 7H7v1h1V7Z"></path>
+                  <path fill="#CAEFF9" d="M12 7H8v1h4V7Z"></path>
+                  <path fill="#1F1D29" d="M19 7h-7v1h7V7Z"></path>
+                  <path fill="#CAEFF9" d="M23 7h-4v1h4V7Z"></path>
+                  <path fill="#1F1D29" d="M24 7h-1v1h1V7ZM8 8H7v1h1V8Z"></path>
+                  <path fill="#CAEFF9" d="M11 8H8v1h3V8Z"></path>
+                  <path fill="#1F1D29" d="M20 8h-9v1h9V8Z"></path>
+                  <path fill="#CAEFF9" d="M23 8h-3v1h3V8Z"></path>
+                  <path fill="#1F1D29" d="M24 8h-1v1h1V8ZM8 9H7v1h1V9Z"></path>
+                  <path fill="#CAEFF9" d="M9 9H8v1h1V9Z"></path>
+                  <path fill="#1F1D29" d="M22 9H9v1h13V9Z"></path>
+                  <path fill="#CAEFF9" d="M23 9h-1v1h1V9Z"></path>
+                  <path
+                    fill="#1F1D29"
+                    d="M24 9h-1v1h1V9Zm0 1H7v1h17v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Zm0 1H8v1h16v-1Z"
+                  ></path>
+                  <path fill="#7CC4F2" d="M11 17H6v1h5v-1Z"></path>
+                  <path fill="#CAEFF9" d="M16 17h-5v1h5v-1Z"></path>
+                  <path fill="#FA6FE2" d="M18 17h-2v1h2v-1Z"></path>
+                  <path fill="#CAEFF9" d="M22 17h-4v1h4v-1Z"></path>
+                  <path fill="#7CC4F2" d="M26 17h-4v1h4v-1Z"></path>
+                  <path fill="#CAEFF9" d="M16 18H8v1h8v-1Z"></path>
+                  <path fill="#5A6B7B" d="M17 18h-1v1h1v-1Z"></path>
+                  <path fill="#CAEFF9" d="M24 18h-7v1h7v-1Z"></path>
+                  <path fill="#7CC4F2" d="M11 19H6v1h5v-1Z"></path>
+                  <path fill="#CAEFF9" d="M14 19h-3v1h3v-1Z"></path>
+                  <path fill="#5A6B7B" d="M18 19h-4v1h4v-1Z"></path>
+                  <path fill="#CAEFF9" d="M22 19h-4v1h4v-1Z"></path>
+                  <path fill="#7CC4F2" d="M26 19h-4v1h4v-1Z"></path>
+                  <path fill="#CAEFF9" d="M24 20H8v1h16v-1Z"></path>
+                  <path
+                    fill="#D19A54"
+                    d="M16 11h-6v1h6v-1Zm7 0h-6v1h6v-1Zm-12 1h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M13 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 12h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#D19A54"
+                    d="M16 12h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M20 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 12h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#D19A54"
+                    d="M23 12h-1v1h1v-1Zm-12 1H7v1h4v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M13 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 13h-2v1h2v-1Z"></path>
+                  <path fill="#D19A54" d="M18 13h-3v1h3v-1Z"></path>
+                  <path fill="#fff" d="M20 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 13h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#D19A54"
+                    d="M23 13h-1v1h1v-1ZM8 14H7v1h1v-1Zm3 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M13 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 14h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#D19A54"
+                    d="M16 14h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M20 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 14h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#D19A54"
+                    d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Zm3 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M13 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 15h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#D19A54"
+                    d="M16 15h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M20 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 15h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#D19A54"
+                    d="M23 15h-1v1h1v-1Zm-7 1h-6v1h6v-1Zm7 0h-6v1h6v-1Z"
+                  ></path>
+                </svg>
+                <p style="color: black; font-weight: 500">Jason,Sunny,Joseph</p>
+              </div>
+              <div class="textpart">
+                <p style="color: black; font-weight: 500">
+Rewind features Eng Sync -<span
+                    >Hey all after touching base with laura:</span
+                  >
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="sectionDiv">
+              <div class="imagePart">
+                <input type="checkbox" />
+                <svg
+                  style="
+                    border-radius: 10px;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="none"
+                  class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+                >
+                  <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                  <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                  <path
+                    fill="#63A0F9"
+                    d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                  ></path>
+                  <path
+                    fill="#000"
+                    d="M14 24h-2v1h2v-1Zm3 0h-1v1h1v-1Zm3 0h-1v1h1v-1Zm-7 1h-1v1h1v-1Zm3 0h-2v1h2v-1Zm3 0h-2v1h2v-1Zm2 0h-1v1h1v-1Zm-8 1h-1v1h1v-1Zm6 0h-5v1h5v-1Zm2 0h-1v1h1v-1Zm-7 1h-2v1h2v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#26B1F3" d="M14 3h-1v1h1V3Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M19 3h-5v1h5V3Zm-6 1h-2v1h2V4Z"
+                  ></path>
+                  <path fill="#26B1F3" d="M14 4h-1v1h1V4Z"></path>
+                  <path fill="#FA6FE2" d="M18 4h-4v1h4V4Z"></path>
+                  <path fill="#FEE3F3" d="M19 4h-1v1h1V4Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M21 4h-2v1h2V4Zm-2 1H9v1h10V5Z"
+                  ></path>
+                  <path fill="#FEE3F3" d="M20 5h-1v1h1V5Z"></path>
+                  <path fill="#FA6FE2" d="M23 5h-3v1h3V5Zm-7 1H8v1h8V6Z"></path>
+                  <path fill="#FFE939" d="M17 6h-1v1h1V6Z"></path>
+                  <path fill="#FA6FE2" d="M22 6h-5v1h5V6Z"></path>
+                  <path fill="#E9265C" d="M24 6h-2v1h2V6Z"></path>
+                  <path fill="#FA6FE2" d="M10 7H8v1h2V7Z"></path>
+                  <path fill="#FEE3F3" d="M12 7h-2v1h2V7Z"></path>
+                  <path fill="#FA6FE2" d="M13 7h-1v1h1V7Z"></path>
+                  <path fill="#E9265C" d="M14 7h-1v1h1V7Z"></path>
+                  <path fill="#FA6FE2" d="M17 7h-3v1h3V7Z"></path>
+                  <path fill="#FFE939" d="M18 7h-1v1h1V7Z"></path>
+                  <path fill="#FA6FE2" d="M24 7h-6v1h6V7ZM14 8H7v1h7V8Z"></path>
+                  <path fill="#E9265C" d="M15 8h-1v1h1V8Z"></path>
+                  <path fill="#FA6FE2" d="M16 8h-1v1h1V8Z"></path>
+                  <path fill="#F38B7C" d="M17 8h-1v1h1V8Z"></path>
+                  <path fill="#FA6FE2" d="M22 8h-5v1h5V8Z"></path>
+                  <path fill="#26B1F3" d="M23 8h-1v1h1V8Z"></path>
+                  <path fill="#FA6FE2" d="M25 8h-2v1h2V8ZM14 9H7v1h7V9Z"></path>
+                  <path fill="#F38B7C" d="M19 9h-5v1h5V9Z"></path>
+                  <path fill="#FA6FE2" d="M21 9h-2v1h2V9Z"></path>
+                  <path fill="#26B1F3" d="M22 9h-1v1h1V9Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M25 9h-3v1h3V9Zm-15 1H6v1h4v-1Z"
+                  ></path>
+                  <path fill="#FFE939" d="M11 10h-1v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M13 10h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F38B7C"
+                    d="M14 10h-1v1h1v-1Zm5 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#FA6FE2" d="M25 10h-6v1h6v-1Z"></path>
+                  <path fill="#4BEA69" d="M26 10h-1v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M7 11H6v1h1v-1Z"></path>
+                  <path fill="#4BEA69" d="M9 11H7v1h2v-1Z"></path>
+                  <path fill="#FA6FE2" d="M10 11H9v1h1v-1Z"></path>
+                  <path fill="#FFE939" d="M11 11h-1v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M12 11h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#F38B7C"
+                    d="M13 11h-1v1h1v-1Zm7 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#FFE939" d="M22 11h-2v1h2v-1Z"></path>
+                  <path fill="#FA6FE2" d="M25 11h-3v1h3v-1Z"></path>
+                  <path fill="#4BEA69" d="M26 11h-1v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M12 12H6v1h6v-1Z"></path>
+                  <path
+                    fill="#F38B7C"
+                    d="M13 12h-1v1h1v-1Zm7 0h-1v1h1v-1Z"
+                  ></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M26 12h-6v1h6v-1Zm-14 1H6v1h6v-1Z"
+                  ></path>
+                  <path
+                    fill="#F38B7C"
+                    d="M13 13h-1v1h1v-1Zm7 0h-1v1h1v-1Z"
+                  ></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M26 13h-6v1h6v-1ZM8 14H6v1h2v-1Z"
+                  ></path>
+                  <path fill="#26B1F3" d="M9 14H8v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M12 14H9v1h3v-1Z"></path>
+                  <path
+                    fill="#F38B7C"
+                    d="M13 14h-1v1h1v-1Zm7 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#FA6FE2" d="M23 14h-3v1h3v-1Z"></path>
+                  <path fill="#FEE3F3" d="M25 14h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M26 14h-1v1h1v-1ZM8 15H6v1h2v-1Z"
+                  ></path>
+                  <path fill="#26B1F3" d="M9 15H8v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M12 15H9v1h3v-1Z"></path>
+                  <path
+                    fill="#F38B7C"
+                    d="M14 15h-2v1h2v-1Zm5 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#FA6FE2" d="M21 15h-2v1h2v-1Z"></path>
+                  <path fill="#26B1F3" d="M22 15h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M26 15h-4v1h4v-1Zm-12 1H7v1h7v-1Z"
+                  ></path>
+                  <path fill="#F38B7C" d="M19 16h-5v1h5v-1Z"></path>
+                  <path fill="#FA6FE2" d="M22 16h-3v1h3v-1Z"></path>
+                  <path fill="#26B1F3" d="M23 16h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M25 16h-2v1h2v-1Zm-14 1H7v1h4v-1Z"
+                  ></path>
+                  <path fill="#FEE3F3" d="M12 17h-1v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M18 17h-6v1h6v-1Z"></path>
+                  <path fill="#E9265C" d="M20 17h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M25 17h-5v1h5v-1Zm-15 1H8v1h2v-1Z"
+                  ></path>
+                  <path fill="#FEE3F3" d="M11 18h-1v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M15 18h-4v1h4v-1Z"></path>
+                  <path fill="#26B1F3" d="M16 18h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M24 18h-8v1h8v-1Zm-9 1H8v1h7v-1Z"
+                  ></path>
+                  <path fill="#26B1F3" d="M16 19h-1v1h1v-1Z"></path>
+                  <path fill="#1F1D29" d="M20 19h-4v1h4v-1Z"></path>
+                  <path fill="#FFE939" d="M21 19h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M24 19h-3v1h3v-1Zm-13 1H9v1h2v-1Z"
+                  ></path>
+                  <path fill="#E9265C" d="M12 20h-1v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M21 20h-9v1h9v-1Z"></path>
+                  <path fill="#FFE939" d="M22 20h-1v1h1v-1Z"></path>
+                  <path fill="#FA6FE2" d="M23 20h-1v1h1v-1Z"></path>
+                  <path fill="#E9265C" d="M12 21h-1v1h1v-1Z"></path>
+                  <path
+                    fill="#FA6FE2"
+                    d="M21 21h-9v1h9v-1Zm-7 1h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#4BEA69" d="M16 22h-2v1h2v-1Z"></path>
+                  <path fill="#FA6FE2" d="M19 22h-3v1h3v-1Z"></path>
+                  <path
+                    fill="#FF638D"
+                    d="M16 11h-6v1h6v-1Zm7 0h-6v1h6v-1Zm-12 1h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M13 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 12h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#FF638D"
+                    d="M16 12h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M20 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 12h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#FF638D"
+                    d="M23 12h-1v1h1v-1Zm-12 1H7v1h4v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M13 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 13h-2v1h2v-1Z"></path>
+                  <path fill="#FF638D" d="M18 13h-3v1h3v-1Z"></path>
+                  <path fill="#fff" d="M20 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 13h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#FF638D"
+                    d="M23 13h-1v1h1v-1Zm-12 1H7v1h4v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M13 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 14h-2v1h2v-1Z"></path>
+                  <path fill="#FF638D" d="M18 14h-3v1h3v-1Z"></path>
+                  <path fill="#fff" d="M20 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 14h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#FF638D"
+                    d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Zm3 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M13 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 15h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#FF638D"
+                    d="M16 15h-1v1h1v-1Zm2 0h-1v1h1v-1Z"
+                  ></path>
+                  <path fill="#fff" d="M20 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 15h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#FF638D"
+                    d="M23 15h-1v1h1v-1Zm-7 1h-6v1h6v-1Zm7 0h-6v1h6v-1Z"
+                  ></path>
+                </svg>
+                <p>0x600f...er2</p>
+              </div>
+              <div class="textpart">
+                <p>
+                  Where to find contract agreement ? -<span
+                    >Hey all after touching base with laura:</span
+                  >
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="sectionDiv">
+              <div class="imagePart">
+                <input type="checkbox" />
+                <svg
+                  style="
+                    border-radius: 10px;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="none"
+                  class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+                >
+                  <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                  <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                  <path
+                    fill="#34AC80"
+                    d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                  ></path>
+                  <path
+                    fill="#F8D689"
+                    d="M19 23h-5v1h5v-1Zm-4 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-1 1h-3v1h3v-1Zm2 0h-1v1h1v-1Zm-4 1h-1v1h1v-1Zm4 0h-3v1h3v-1Z"
+                  ></path>
+                  <path
+                    fill="#4BEA69"
+                    d="M17 4h-2v1h2V4Zm-4 1h-1v1h1V5Zm5 0h-2v1h2V5Z"
+                  ></path>
+                  <path fill="#FFC110" d="M25 5h-1v1h1V5Z"></path>
+                  <path fill="#4BEA69" d="M15 6h-2v1h2V6Zm3 0h-2v1h2V6Z"></path>
+                  <path fill="#FFC110" d="M24 6h-2v1h2V6Z"></path>
+                  <path fill="#FDF8FF" d="M12 7H9v1h3V7Z"></path>
+                  <path fill="#4BEA69" d="M18 7h-5v1h5V7Z"></path>
+                  <path fill="#FFC110" d="M23 7h-3v1h3V7Z"></path>
+                  <path fill="#4BEA69" d="M9 8H6v1h3V8Z"></path>
+                  <path fill="#FDF8FF" d="M12 8H9v1h3V8Z"></path>
+                  <path fill="#4BEA69" d="M19 8h-7v1h7V8Z"></path>
+                  <path fill="#FFC110" d="M22 8h-3v1h3V8Z"></path>
+                  <path fill="#FDF8FF" d="M23 8h-1v1h1V8Z"></path>
+                  <path fill="#4BEA69" d="M5 9H4v1h1V9Zm4 0H6v1h3V9Z"></path>
+                  <path fill="#FDF8FF" d="M16 9H9v1h7V9Z"></path>
+                  <path fill="#4BEA69" d="M17 9h-1v1h1V9Z"></path>
+                  <path fill="#FFC110" d="M21 9h-4v1h4V9Z"></path>
+                  <path fill="#FDF8FF" d="M23 9h-2v1h2V9Z"></path>
+                  <path fill="#4BEA69" d="M8 10H5v1h3v-1Z"></path>
+                  <path fill="#FF638D" d="M9 10H8v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 10H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M20 10h-4v1h4v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 10h-3v1h3v-1Z"></path>
+                  <path fill="#4BEA69" d="M7 11H6v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M9 11H7v1h2v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 11H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M19 11h-3v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 11h-4v1h4v-1Z"></path>
+                  <path fill="#FF638D" d="M9 12H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 12H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M18 12h-2v1h2v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 12h-5v1h5v-1Z"></path>
+                  <path fill="#FF638D" d="M9 13H5v1h4v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 13H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M17 13h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 13h-6v1h6v-1Z"></path>
+                  <path fill="#FF638D" d="M9 14H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 14H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M9 15H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 15H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M9 16H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 16H9v1h18v-1Z"></path>
+                  <path fill="#FF638D" d="M7 17H5v1h2v-1Z"></path>
+                  <path fill="#667AF9" d="M9 17H7v1h2v-1Z"></path>
+                  <path fill="#FEB9D5" d="M23 17H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M24 17h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M25 17h-1v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M26 17h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 17h-1v1h1v-1Z"></path>
+                  <path fill="#667AF9" d="M9 18H5v1h4v-1Z"></path>
+                  <path fill="#FEB9D5" d="M12 18H9v1h3v-1Z"></path>
+                  <path fill="#FF638D" d="M13 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M14 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M15 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M17 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M18 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M19 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M20 18h-1v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M21 18h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 18h-6v1h6v-1Z"></path>
+                  <path fill="#667AF9" d="M9 19H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 19H9v1h18v-1Z"></path>
+                  <path fill="#667AF9" d="M9 20H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 20H9v1h18v-1Z"></path>
+                  <path fill="#667AF9" d="M9 21H7v1h2v-1Zm0 1H8v1h1v-1Z"></path>
+                  <path fill="#FFC110" d="M16 11h-6v1h6v-1Z"></path>
+                  <path fill="#F98F30" d="M23 11h-6v1h6v-1Z"></path>
+                  <path fill="#FFC110" d="M11 12h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 12h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 12h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 12h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 12h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 12h-1v1h1v-1Zm-13 1H7v1h3v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 13h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 13h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 13h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 13h-2v1h2v-1Z"></path>
+                  <path fill="#fff" d="M20 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 13h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 13h-1v1h1v-1ZM8 14H7v1h1v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 14h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 14h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 14h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 14h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 14h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 15h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 15h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 15h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 15h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 15h-2v1h2v-1Z"></path>
+                  <path fill="#F98F30" d="M23 15h-1v1h1v-1Z"></path>
+                  <path fill="#FFC110" d="M16 16h-6v1h6v-1Z"></path>
+                  <path fill="#F98F30" d="M23 16h-6v1h6v-1Z"></path>
+                </svg>
+                <p>Henirick Lock</p>
+              </div>
+              <div class="textpart">
+                <p>
+                  Update the engineering status -<span
+                    >Hey all after touching base with laura:</span
+                  >
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="sectionDiv">
+              <div class="imagePart">
+                <input type="checkbox" />
+                <svg
+                  style="
+                    border-radius: 10px;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="none"
+                  class="w-[28px] h-[28px] rounded-md outline-[3px] min-w-fit outline-white outline -mr-1 z-50"
+                >
+                  <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                  <path fill="#E1D7D5" d="M.1 0H0v.1h.1V0Z"></path>
+                  <path
+                    fill="#34AC80"
+                    d="M23 21H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm0 1H9v1h14v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Zm-12 1H9v1h2v-1Zm12 0H12v1h11v-1Z"
+                  ></path>
+                  <path
+                    fill="#F8D689"
+                    d="M19 23h-5v1h5v-1Zm-4 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-3 1h-1v1h1v-1Zm2 0h-1v1h1v-1Zm-1 1h-3v1h3v-1Zm2 0h-1v1h1v-1Zm-4 1h-1v1h1v-1Zm4 0h-3v1h3v-1Z"
+                  ></path>
+                  <path
+                    fill="#4BEA69"
+                    d="M17 4h-2v1h2V4Zm-4 1h-1v1h1V5Zm5 0h-2v1h2V5Z"
+                  ></path>
+                  <path fill="#FFC110" d="M25 5h-1v1h1V5Z"></path>
+                  <path fill="#4BEA69" d="M15 6h-2v1h2V6Zm3 0h-2v1h2V6Z"></path>
+                  <path fill="#FFC110" d="M24 6h-2v1h2V6Z"></path>
+                  <path fill="#FDF8FF" d="M12 7H9v1h3V7Z"></path>
+                  <path fill="#4BEA69" d="M18 7h-5v1h5V7Z"></path>
+                  <path fill="#FFC110" d="M23 7h-3v1h3V7Z"></path>
+                  <path fill="#4BEA69" d="M9 8H6v1h3V8Z"></path>
+                  <path fill="#FDF8FF" d="M12 8H9v1h3V8Z"></path>
+                  <path fill="#4BEA69" d="M19 8h-7v1h7V8Z"></path>
+                  <path fill="#FFC110" d="M22 8h-3v1h3V8Z"></path>
+                  <path fill="#FDF8FF" d="M23 8h-1v1h1V8Z"></path>
+                  <path fill="#4BEA69" d="M5 9H4v1h1V9Zm4 0H6v1h3V9Z"></path>
+                  <path fill="#FDF8FF" d="M16 9H9v1h7V9Z"></path>
+                  <path fill="#4BEA69" d="M17 9h-1v1h1V9Z"></path>
+                  <path fill="#FFC110" d="M21 9h-4v1h4V9Z"></path>
+                  <path fill="#FDF8FF" d="M23 9h-2v1h2V9Z"></path>
+                  <path fill="#4BEA69" d="M8 10H5v1h3v-1Z"></path>
+                  <path fill="#FF638D" d="M9 10H8v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 10H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M20 10h-4v1h4v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 10h-3v1h3v-1Z"></path>
+                  <path fill="#4BEA69" d="M7 11H6v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M9 11H7v1h2v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 11H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M19 11h-3v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 11h-4v1h4v-1Z"></path>
+                  <path fill="#FF638D" d="M9 12H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 12H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M18 12h-2v1h2v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 12h-5v1h5v-1Z"></path>
+                  <path fill="#FF638D" d="M9 13H5v1h4v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 13H9v1h7v-1Z"></path>
+                  <path fill="#FFC110" d="M17 13h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 13h-6v1h6v-1Z"></path>
+                  <path fill="#FF638D" d="M9 14H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 14H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M9 15H6v1h3v-1Z"></path>
+                  <path fill="#FDF8FF" d="M23 15H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M9 16H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 16H9v1h18v-1Z"></path>
+                  <path fill="#FF638D" d="M7 17H5v1h2v-1Z"></path>
+                  <path fill="#667AF9" d="M9 17H7v1h2v-1Z"></path>
+                  <path fill="#FEB9D5" d="M23 17H9v1h14v-1Z"></path>
+                  <path fill="#FF638D" d="M24 17h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M25 17h-1v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M26 17h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 17h-1v1h1v-1Z"></path>
+                  <path fill="#667AF9" d="M9 18H5v1h4v-1Z"></path>
+                  <path fill="#FEB9D5" d="M12 18H9v1h3v-1Z"></path>
+                  <path fill="#FF638D" d="M13 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M14 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M15 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M16 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M17 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M18 18h-1v1h1v-1Z"></path>
+                  <path fill="#000" d="M19 18h-1v1h1v-1Z"></path>
+                  <path fill="#FDF8FF" d="M20 18h-1v1h1v-1Z"></path>
+                  <path fill="#FF638D" d="M21 18h-1v1h1v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 18h-6v1h6v-1Z"></path>
+                  <path fill="#667AF9" d="M9 19H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 19H9v1h18v-1Z"></path>
+                  <path fill="#667AF9" d="M9 20H6v1h3v-1Z"></path>
+                  <path fill="#FEB9D5" d="M27 20H9v1h18v-1Z"></path>
+                  <path fill="#667AF9" d="M9 21H7v1h2v-1Zm0 1H8v1h1v-1Z"></path>
+                  <path fill="#FFC110" d="M16 11h-6v1h6v-1Z"></path>
+                  <path fill="#F98F30" d="M23 11h-6v1h6v-1Z"></path>
+                  <path fill="#FFC110" d="M11 12h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 12h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 12h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 12h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 12h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 12h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 12h-1v1h1v-1Zm-13 1H7v1h3v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 13h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 13h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 13h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 13h-2v1h2v-1Z"></path>
+                  <path fill="#fff" d="M20 13h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 13h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 13h-1v1h1v-1ZM8 14H7v1h1v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 14h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 14h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 14h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 14h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 14h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 14h-2v1h2v-1Z"></path>
+                  <path
+                    fill="#F98F30"
+                    d="M23 14h-1v1h1v-1ZM8 15H7v1h1v-1Z"
+                  ></path>
+                  <path fill="#FFC110" d="M11 15h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M13 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M15 15h-2v1h2v-1Z"></path>
+                  <path fill="#FFC110" d="M16 15h-1v1h1v-1Z"></path>
+                  <path fill="#F98F30" d="M18 15h-1v1h1v-1Z"></path>
+                  <path fill="#fff" d="M20 15h-2v1h2v-1Z"></path>
+                  <path fill="#000" d="M22 15h-2v1h2v-1Z"></path>
+                  <path fill="#F98F30" d="M23 15h-1v1h1v-1Z"></path>
+                  <path fill="#FFC110" d="M16 16h-6v1h6v-1Z"></path>
+                  <path fill="#F98F30" d="M23 16h-6v1h6v-1Z"></path>
+                </svg>
+                <p>Henirick Lock</p>
+              </div>
+              <div class="textpart">
+                <p>
+                  Update the engineering status -<span
+                    >Hey all after touching base with laura:</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h2>Preserve your privacy with unlimited aliases</h2>
+          <p>
+            Add, manage, and delete aliases to keep your identity completely
+            private.
+          </p>
+          <div class="emailCard" style="position: relative">
+            <div
+              style="
+                position: absolute;
+                background-color: rgb(43, 43, 43);
+                width: 50%;
+                border-radius: 15px;
+                padding: 1vh;
+                top: 5rem;
+                left: 5rem;
+              "
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  height: 3.5vh;
+                  margin-top: 1vh;
+                "
+              >
+                <p style="color: aliceblue">Joseph@skiff.com</p>
+                <i
+                  class="fa-solid fa-check"
+                  style="margin-right: 2vh; color: rgb(255, 255, 255)"
+                ></i>
+              </div>
+              <p>Traderjo@skiff.com</p>
+              <p>incognito@skiff.com</p>
+            </div>
+            <div class="newMessage">
+              <p style="font-size: 18px; color: black; font-weight: 600">
+                New message
+              </p>
+              <div>
+                <i class="fa-solid fa-window-minimize"></i
+                ><i class="fa-solid fa-xmark"></i>
+              </div>
+            </div>
+            <div class="" style="display: flex; justify-content: space-between">
+              <div style="display: flex; align-items: center">
+                <p style="margin-right: 2vh">To</p>
+                <div
+                  style="
+                    width: 5vh;
+                    height: 5vh;
+                    overflow: hidden;
+                    border-radius: 50%;
+                  "
+                >
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0MQhWozvsXRWXxhUpdzUhqjWf76K9vrTKG1L9sSAZ4NtCTlradyPIrZ7AWhbnslbdJBw&usqp=CAU"
+                    alt=""
+                    style="width: 100%"
+                  />
+                </div>
+              </div>
+              <div style="display: flex">
+                <p style="margin-right: 2vh">CC</p>
+                <p>BCC</p>
+              </div>
+            </div>
+            <hr />
+            <div>
+              <p>Subject</p>
+            </div>
+            <hr />
+            <div style="display: flex">
+              <p style="margin-right: 2vh">From</p>
+              <p class="fromId">incognito@skiff.com/p></p>
+            </div>
+
+            <hr />
+            <div>
+              <p style="font-size: 18px">Hey Diff,</p>
+              <p>
+                Wanted to ask about an update on the most recent engineering
+                design doc
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="padding-right: 0; padding-left: 0">
+          <h2 style="margin-left: 1.5rem; margin-right: 1.5rem">
+            Protect yourself from email tracking
+          </h2>
+          <p style="margin-left: 1.5rem; margin-right: 1.5rem">
+            Block trackers, opens, and more. Your device information and IP
+            address are hidden by default when opening emails.
+          </p>
+          <div
+            style="
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <div
+              style="width: 60%; margin-top: 4rem; height: 100%"
+              class="graphDiv"
+            >
+              <svg
+                class="opacity-50 grayscale duration-200 ease-out"
+                width="100%"
+                height="100%"
+                viewBox="0 0 300 202"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M279.165 101L151.547 101C140.502 101 131.547 92.0457 131.547 81V21C131.547 9.95431 122.593 1 111.547 1H0"
+                  stroke="rgba(0,149,194,.4)"
+                  stroke-width="1.5"
+                  opacity="1"
+                  pathLength="1"
+                  stroke-dashoffset="0px"
+                  stroke-dasharray="1px 1px"
+                ></path>
+                <path
+                  d="M279.165 101L151.547 101C140.502 101 131.547 109.954 131.547 121V181C131.547 192.046 122.593 201 111.547 201H0"
+                  stroke="rgba(0,149,194,.4)"
+                  stroke-width="1.5"
+                  opacity="1"
+                  pathLength="1"
+                  stroke-dashoffset="0px"
+                  stroke-dasharray="1px 1px"
+                ></path>
+                <path
+                  d="M279.157 101L151.547 101C140.502 101 131.547 92.0453 131.547 80.9996V72.0005C131.547 60.9548 122.593 52.0005 111.547 52.0005H0"
+                  stroke="rgba(0,149,194,.4)"
+                  stroke-width="1.5"
+                  opacity="1"
+                  pathLength="1"
+                  stroke-dashoffset="0px"
+                  stroke-dasharray="1px 1px"
+                ></path>
+                <path
+                  d="M0 101H279.165"
+                  stroke="rgba(0,149,194,.4)"
+                  stroke-width="1.5"
+                  opacity="1"
+                  pathLength="1"
+                  stroke-dashoffset="0px"
+                  stroke-dasharray="1px 1px"
+                ></path>
+                <path
+                  d="M279.148 101L151.547 101C140.502 101 131.547 109.955 131.547 121V129.999C131.547 141.045 122.593 149.999 111.547 149.999H0"
+                  stroke="rgba(0,149,194,.4)"
+                  stroke-width="1.5"
+                  opacity="1"
+                  pathLength="1"
+                  stroke-dashoffset="0px"
+                  stroke-dasharray="1px 1px"
+                ></path>
+                <path
+                  d="M246.219 132.002C245.926 132.295 245.926 132.77 246.219 133.063L250.992 137.836C251.285 138.129 251.759 138.129 252.052 137.836C252.345 137.543 252.345 137.068 252.052 136.775L247.81 132.533L252.052 128.29C252.345 127.997 252.345 127.522 252.052 127.229C251.759 126.936 251.285 126.936 250.992 127.229L246.219 132.002ZM286.71 100.294H278.404V101.794H286.71V100.294ZM246.749 133.283H286.71V131.783H246.749V133.283ZM299.46 120.533V113.044H297.96V120.533H299.46ZM286.71 133.283C293.751 133.283 299.46 127.574 299.46 120.533H297.96C297.96 126.746 292.923 131.783 286.71 131.783V133.283ZM286.71 101.794C292.923 101.794 297.96 106.831 297.96 113.044H299.46C299.46 106.003 293.751 100.294 286.71 100.294V101.794Z"
+                  fill="rgba(0,149,194,1)"
+                  stroke="#fafaf9"
+                  stroke-width="1.5"
+                  fill-opacity="1"
+                  pathLength="1"
+                  stroke-dashoffset="-1px"
+                  stroke-dasharray="1px 1px"
+                  opacity="1"
+                ></path>
+              </svg>
+            </div>
+            <div style="padding-left: 3vw; height: 65%" class="nonGraph">
+              <div class="dotborderCard">
+                <div class="insideDotCard" style="padding: 4vh">
+                  <div style="display: flex; overflow: hidden">
+                    <p
+                      style="
+                        background-color: rgb(178, 226, 248);
+                        height: 100%;
+                        padding: 2vh;
+                        color: rgb(36, 127, 168);
+                        border-radius: 8px;
+                        margin: 0;
+                      "
+                    >
+                      p
+                    </p>
+                    <ul
+                      style="
+                        list-style-type: none;
+                        margin: 0;
+                        text-align: left;
+                        padding: 0.8rem;
+                        padding-top: 0;
+                      "
+                    >
+                      <li style="font-size: 18px; color: black">
+                        Penelope Elope
+                      </li>
+                      <li>sweetpea@skiff.com</li>
+                      <li>To: jacksteadman@skiff.com</li>
+                      <li>Subject: Referral</li>
+                    </ul>
+                  </div>
+
+                  <div
+                    style="display: flex; padding-left: 5rem; margin-top: 2rem"
+                  >
+                    <div
+                      style="
+                        border: 0.3px solid gray;
+                        padding: 0.2rem;
+                        border-radius: 5px;
+                        display: flex;
+                      "
+                    >
+                      <svg
+                        style="margin-right: 4px; border-radius: 5px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32"
+                        height="32"
+                        fill="none"
+                        class="relative z-[999] h-[32px] w-[32px] rounded-lg border-2 border-white"
+                      >
+                        <g clip-path="url(#pixelated-pic-4_svg__a)">
+                          <path fill="#D5D7E0" d="M0 0h32v32H0z"></path>
+                          <path fill="#D2D4DD" d="M0 28h6v6H0z"></path>
+                          <path fill="#8F9DB3" d="M6 28h6v6H6z"></path>
+                          <path fill="#536E7E" d="M12 28h6v6h-6z"></path>
+                          <path fill="#4D7169" d="M18 28h6v6h-6z"></path>
+                          <path fill="#C9CBD4" d="M24 28h6v6h-6z"></path>
+                          <path fill="#D5D7E0" d="M30 28h6v6h-6z"></path>
+                          <path fill="#D9D9D9" d="M0 22h6v6H0z"></path>
+                          <path fill="#8AA0A1" d="M6 22h6v6H6z"></path>
+                          <path fill="#68645B" d="M12 22h6v6h-6z"></path>
+                          <path fill="#6A8A5C" d="M18 22h6v6h-6z"></path>
+                          <path fill="#D9D9E1" d="M24 22h6v6h-6z"></path>
+                          <path fill="#D9D9D9" d="M30 22h6v6h-6z"></path>
+                          <path fill="#D1D1DA" d="M0 16h6v6H0z"></path>
+                          <path fill="#D0888A" d="M6 16h6v6H6z"></path>
+                          <path fill="#C94550" d="M12 16h6v6h-6z"></path>
+                          <path fill="#C13A3B" d="M18 16h6v6h-6z"></path>
+                          <path fill="#DDD6D9" d="M24 16h6v6h-6z"></path>
+                          <path fill="#DEDBDE" d="M30 16h6v6h-6z"></path>
+                          <path fill="#DCDAE0" d="M0 10h6v6H0z"></path>
+                          <path fill="#965351" d="M6 10h6v6H6z"></path>
+                          <path fill="#553023" d="M12 10h6v6h-6z"></path>
+                          <path fill="#776654" d="M18 10h6v6h-6z"></path>
+                          <path fill="#DFDBE0" d="M24 10h6v6h-6z"></path>
+                          <path fill="#C0C2C8" d="M30 10h6v6h-6z"></path>
+                          <path fill="#D9D9D9" d="M0 4h6v6H0z"></path>
+                          <path fill="#E5BF97" d="M6 4h6v6H6z"></path>
+                          <path fill="#F9BC2B" d="M12 4h6v6h-6z"></path>
+                          <path fill="#F4BF42" d="M18 4h6v6h-6z"></path>
+                          <path fill="#C7C8DD" d="M24 4h6v6h-6z"></path>
+                          <path fill="#C4C6CE" d="M30 4h6v6h-6z"></path>
+                          <path fill="#D1D3DC" d="M0-2h6v6H0z"></path>
+                          <path fill="#B5B7BE" d="M6-2h6v6H6z"></path>
+                          <path fill="#CAC9C9" d="M12-2h6v6h-6z"></path>
+                          <path fill="#BEC0C7" d="M18-2h6v6h-6z"></path>
+                          <path fill="#D9D9D9" d="M24-2h6v6h-6z"></path>
+                          <path fill="#CDCFD8" d="M30-2h6v6h-6z"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="pixelated-pic-4_svg__a">
+                            <path fill="#fff" d="M0 0h32v32H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <svg
+                        style="margin-right: 4px; border-radius: 5px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32"
+                        height="32"
+                        fill="none"
+                        class="relative z-[998] -ml-2 h-[32px] w-[32px] rounded-lg border-2 border-white"
+                      >
+                        <g clip-path="url(#pixelated-pic-7_svg__a)">
+                          <path fill="#DFD7D5" d="M0 0h32v32H0z"></path>
+                          <path fill="#DDD5D3" d="M0 28h6v6H0z"></path>
+                          <path fill="#7C787B" d="M6 28h6v6H6z"></path>
+                          <path fill="#3F3D42" d="M12 28h6v6h-6z"></path>
+                          <path fill="#312F36" d="M18 28h6v6h-6z"></path>
+                          <path fill="#938E90" d="M24 28h6v6h-6z"></path>
+                          <path fill="#A5A09E" d="M30 28h6v6h-6z"></path>
+                          <path fill="#D9D9D9" d="M0 22h6v6H0z"></path>
+                          <path fill="#BCB5B6" d="M6 22h6v6H6z"></path>
+                          <path fill="#B19635" d="M12 22h6v6h-6z"></path>
+                          <path fill="#716738" d="M18 22h6v6h-6z"></path>
+                          <path fill="#BFB8B9" d="M24 22h6v6h-6z"></path>
+                          <path fill="#D9D9D9" d="M30 22h6v6h-6z"></path>
+                          <path fill="#DBD6D5" d="M0 16h6v6H0z"></path>
+                          <path fill="#A5C1D0" d="M6 16h6v6H6z"></path>
+                          <path fill="#ACC2C2" d="M12 16h6v6h-6z"></path>
+                          <path fill="#B9C5C4" d="M18 16h6v6h-6z"></path>
+                          <path fill="#BBCDD8" d="M24 16h6v6h-6z"></path>
+                          <path fill="#DED7D6" d="M30 16h6v6h-6z"></path>
+                          <path fill="#CBBDB9" d="M0 10h6v6H0z"></path>
+                          <path fill="#9A887A" d="M6 10h6v6H6z"></path>
+                          <path fill="#A89D8A" d="M12 10h6v6h-6z"></path>
+                          <path fill="#937D65" d="M18 10h6v6h-6z"></path>
+                          <path fill="#988F88" d="M24 10h6v6h-6z"></path>
+                          <path fill="#C9BEBB" d="M30 10h6v6h-6z"></path>
+                          <path fill="#D9D9D9" d="M0 4h6v6H0z"></path>
+                          <path fill="#9AA0A6" d="M6 4h6v6H6z"></path>
+                          <path fill="#514E54" d="M12 4h6v6h-6z"></path>
+                          <path fill="#4F4C52" d="M18 4h6v6h-6z"></path>
+                          <path fill="#819098" d="M24 4h6v6h-6z"></path>
+                          <path fill="#DED6D4" d="M30 4h6v6h-6z"></path>
+                          <path fill="#D5CECC" d="M0-2h6v6H0z"></path>
+                          <path fill="#89959D" d="M6-2h6v6H6z"></path>
+                          <path fill="#BDB8B6" d="M12-2h6v6h-6z"></path>
+                          <path fill="#CCC5C4" d="M18-2h6v6h-6z"></path>
+                          <path fill="#AEA8A9" d="M24-2h6v6h-6z"></path>
+                          <path fill="#BCB6B4" d="M30-2h6v6h-6z"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="pixelated-pic-7_svg__a">
+                            <path fill="#fff" d="M0 0h32v32H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <div
+                        style="
+                          background-color: rgb(211, 210, 210);
+                          margin-left: 0.2px;
+                          padding: 1vh;
+                          font-size: small;
+                          color: rgb(129, 129, 126);
+                        "
+                      >
+                        +1
+                      </div>
+                    </div>
+                  </div>
+                  <div style="padding-left: 3rem; color: black">
+                    <p style="color: black">Hey,</p>
+                    <p style="color: black">
+                      After touching base with Laura, we decided that we should
+                      build this in Q1 instead of immediately. We’ll reflect
+                      this change in the standup meeting tomorrow morning and
+                      reprioritize accordingly. J
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="thirdPart">
+      <div class="textpart">
+        <p class="subHeading">10 GB free storage</p>
+        <p>
+          Switch comfortably to Skiff with 10 GB for free - more than any other
+          end-to-end encrypted email provider.
+        </p>
+      </div>
+      <div class="textpart">
+        <p class="subHeading">10 GB free storage</p>
+        <p>
+          Switch comfortably to Skiff with 10 GB for free - more than any other
+          end-to-end encrypted email provider.
+        </p>
+      </div>
+      <div class="textpart">
+        <p class="subHeading">10 GB free storage</p>
+        <p>
+          Switch comfortably to Skiff with 10 GB for free - more than any other
+          end-to-end encrypted email provider.
+        </p>
+      </div>
+      <div class="textpart">
+        <p class="subHeading">10 GB free storage</p>
+        <p>
+          Switch comfortably to Skiff with 10 GB for free - more than any other
+          end-to-end encrypted email provider.
+        </p>
+      </div>
+      <div class="textpart">
+        <p class="subHeading">10 GB free storage</p>
+        <p>
+          Switch comfortably to Skiff with 10 GB for free - more than any other
+          end-to-end encrypted email provider.
+        </p>
+      </div>
+      <div class="textpart">
+        <p class="subHeading">10 GB free storage</p>
+        <p>
+          Switch comfortably to Skiff with 10 GB for free - more than any other
+          end-to-end encrypted email provider.
+        </p>
+      </div>
+    </div>
+    <div class="FourthPart">
+      <div class="gitHubPart" style="color: white">
+        <h2 style="margin: 0; padding: 0">Transparent and completely</h2>
+        <h2 style="margin: 0; padding: 0; color: rgb(255, 196, 0)">
+          open source
+        </h2>
+        <h4>
+          Privacy is more than a promise. Anyone can verify our encryption
+          protocols and privacy protections.
+        </h4>
+        <div class="btns">
+          <button>View on GitHub <i class="fa-brands fa-github"></i></button>
+          <button>Read whitepaper</button>
+        </div>
+      </div>
+      <div class="codePart" style="position: relative">
+        <div style="padding: 0.5vh" class="outerCard">
+          <div style="margin: 2vh" class="innerCard">
+            <p style="color: white">
+              <span class="drkblue">const</span><span class="Cyn">salt</span>=
+              <span class="Cyn">srp.</span
+              ><span class="orng">generateSalt</span>();
+            </p>
+            <p style="color: white">
+              <span class="drkblue">const</span
+              ><span class="Cyn">masterSecret</span>=
+              <span class="pnk">await </span
+              ><span class="orng">createKeyFromSecret</span>(<span class="Cyn"
+                >password</span
+              >,<span class="Cyn">salt</span>);
+            </p>
+            <p style="color: white">
+              <span class="drkblue">const</span
+              ><span class="Cyn">verifierPrivateKey</span>=
+              <span class="pnk">await </span
+              ><span class="orng">createSRPKey</span>(<span class="Cyn"
+                >password</span
+              >,<span class="Cyn">salt</span>);
+            </p>
+            <p style="color: white">
+              <span class="drkblue">const</span
+              ><span class="Cyn">verifier</span>= <span class="Cyn">srp.</span
+              ><span class="orng">deriveVerifier</span>(<span class="Cyn"
+                >verifierPrivateKey</span
+              >);
+            </p>
+            <p style="color: white">
+              <span class="drkblue">const</span
+              ><span class="Cyn">PasswordDerivedSecret</span>= ><span
+                class="orng"
+                >createPasswordDerivedSecret</span
+              >(<span class="Cyn">master</span>);
+            </p>
+            <p style="color: white">
+              <span class="drkblue">const</span
+              ><span class="Cyn">privateUserData</span> :
+              <span style="color: rgb(121, 255, 121); font-weight: 500"
+                >ReturnType</span
+              >
+              <<span class="Cyn">typeof</span
+              ><span class="orng">dycryptPrivateUserDataR</span>();
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="secondouterCard">
+            <div class="secondinnerCard">
+              <p>
+                //Privacy is more than a promise. Anyone can verify our
+                encryption protocols and privacy protections. Privacy is more
+                than a promise. Anyone can verify our encryption //protocols and
+                privacy protections.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div style="position: absolute;top: 3rem;">
+          <svg
+            class="absolute"
+            xmlns="http://www.w3.org/2000/svg"
+            width="970"
+            height="440"
+          >
+            <path
+              d="M78.2794 220.235V328.888C78.2794 335.515 83.652 340.888 90.2794 340.888H326.721C333.349 340.888 338.721 346.261 338.721 352.888V421.494C338.721 428.121 344.094 433.494 350.721 433.494H957C963.627 433.494 969 428.121 969 421.494V241.261C969 234.633 963.627 229.261 957 229.261H808.376C801.748 229.261 796.376 223.888 796.376 217.261V106.607C796.376 99.9794 791.003 94.6069 784.376 94.6069H664.359C657.731 94.6069 652.359 89.2343 652.359 82.6069V13C652.359 6.37258 646.986 1 640.359 1H13C6.37258 1 1 6.37259 1 13V196.235C1 202.863 6.3726 208.235 13 208.235H66.2794C72.9068 208.235 78.2794 213.608 78.2794 220.235Z"
+              fill="transparent"
+              stroke="rgb(50,50,50)"
+              stroke-width="1"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="FifthPart">
+      <div class="leftSide">
+        <h2>Download Skiff for mobile</h2>
+        <p>
+          Want to access your information on the go? Skiff offers privacy-first
+          collaboration directly on your iOS and Android devices.
+        </p>
+        <div
+          style="
+            display: flex;
+            padding: 0;
+            align-items: center;
+            color: rgb(218, 124, 81);
+          "
+        >
+          <p style="color: rgb(218, 124, 81)">Download app</p>
+          <i class="fa-solid fa-arrow-right" style="margin-left: 5px"></i>
+        </div>
+      </div>
+      <div class="mobileSide">
+        <img
+          draggable="false"
+          alt="Skiff Mail mobile app."
+          srcset="
+            https://cdn.sanity.io/images/sdd9dua4/production/b1823926275ff3f6ff3c2b6ae00bc5e1052ba0b7-1200x1201.png?rect=0,1,1200,1200&amp;w=1600&amp;h=1600&amp;fit=max&amp;auto=format 1x,
+            https://cdn.sanity.io/images/sdd9dua4/production/b1823926275ff3f6ff3c2b6ae00bc5e1052ba0b7-1200x1201.png?rect=0,1,1200,1200&amp;w=1600&amp;h=1600&amp;fit=max&amp;auto=format 2x
+          "
+          src="https://cdn.sanity.io/images/sdd9dua4/production/b1823926275ff3f6ff3c2b6ae00bc5e1052ba0b7-1200x1201.png?rect=0,1,1200,1200&amp;w=1600&amp;h=1600&amp;fit=max&amp;auto=format"
+          width="90%"
+          height="95%"
+          decoding="async"
+          data-nimg="1"
+          class="w-full select-none"
+          loading="lazy"
+          style="color: transparent"
+        />
+      </div>
+    </div>
+    <div class="footer">
+      <div class="appLogoPortion" style="width: 50%">
+        <div class="logopart">
+          <div style="display: flex; margin-left: 4vw">
+            <img
+              src="https://www.sequoiacap.com/wp-content/uploads/sites/6/2022/08/Skiff-Logo-Black.png"
+              alt=""
+              style="max-width: 100%; max-height: 100%"
+            />
+          </div>
+          <p>Skiff</p>
+        </div>
+        <p class="copyRight">© 2024. All rights reserved.</p>
+      </div>
+      <div class="listportion" style="display: flex">
+        <ul class="no-bullets">
+          <li style="color: rgb(129, 129, 126)">Products</li>
+          <li>Mail</li>
+          <li>Pages</li>
+          <li>Drive</li>
+          <li>Calendar</li>
+          <li>Download</li>
+        </ul>
+        <ul class="no-bullets">
+          <li style="color: rgb(129, 129, 126)">Resources</li>
+          <li>Help</li>
+          <li>Changelog</li>
+        </ul>
+        <ul class="no-bullets">
+          <li style="color: rgb(129, 129, 126)">Developer</li>
+          <li>GitHub</li>
+          <li>Libraries</li>
+          <li>Skiff Crypto docs</li>
+          <li>Skiff UI docs</li>
+          <li>Whitepaper</li>
+          <li>Report an issue</li>
+          <li>Status</li>
+        </ul>
+        <ul class="no-bullets">
+          <li style="color: rgb(129, 129, 126)">Legal</li>
+          <li>Privacy policy</li>
+          <li>Terms of service</li>
+          <li>Acceptable use policy</li>
+        </ul>
+      </div>
+    </div>
+    
+  </body>
+</html>
